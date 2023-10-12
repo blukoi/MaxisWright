@@ -1,0 +1,106 @@
+/* BROTHER 1816 FONTS LINKED
+
+Brother 1816 Thin
+font-family: "brother-1816", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+Brother 1816 Thin Italic
+font-family: "brother-1816", sans-serif;
+font-weight: 100;
+font-style: italic;
+
+Brother 1816 Regular
+font-family: "brother-1816", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Brother 1816 Regular Italic
+font-family: "brother-1816", sans-serif;
+font-weight: 400;
+font-style: italic;
+
+Brother 1816 Bold
+font-family: "brother-1816", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Brother 1816 Bold Italic
+font-family: "brother-1816", sans-serif;
+font-weight: 700;
+font-style: italic;
+
+Brother 1816 Black
+font-family: "brother-1816", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Brother 1816 Black Italic
+font-family: "brother-1816", sans-serif;
+font-weight: 900;
+font-style: italic;
+
+*/
+
+@font-face {
+    font-family: 'Optician Sans';
+    src: local('Optician Sans');
+}
+
+body {
+    font-family: "brother-1816", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* HAMBURGER MENU STYLES */
+
+#menu-btn {
+    top: -100%;
+    right: -100%;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-icon {
+    cursor: pointer;
+    user-select: none;
+    visibility: visible;
+}
+
+.hamburgericon .top, .hamburgericon .middle1, .hamburgericon .middle2, .hamburgericon .bottom {
+    transform: rotate(0deg);
+    transform-origin: center;
+    opacity: 1;
+    transition: all .2s ease-out;
+}
+
+.menu {
+    height: 0;
+    overflow: hidden;
+    transition: 
+        height .2s ease-out;
+}
+
+#menu-btn:checked ~ .menu {
+    height: 154px;
+}
+
+.menu-btn:checked ~ .menu-icon .hamburgericon .top, .menu-btn:checked ~ .menu-icon .hamburgericon .bottom {
+    opacity: 0;
+}
+
+.menu-btn:checked ~ .menu-icon .hamburgericon .middle1 {
+    transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .hamburgericon .middle2 {
+    transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before,
+.menu-btn:checked ~ .menu-icon .navicon:after {
+    top: 0;
+}
