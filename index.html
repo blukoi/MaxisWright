@@ -22,6 +22,8 @@
                 extend: {
                     colors: {
                         mint: '#00ab8f',
+                        lightishblue: '#eff7ff',
+                        fontfacingblue: '#122f3c',
                     }
                 }
             }
@@ -29,16 +31,16 @@
     </script>
 
     <!-- Page Title -->
-    <title>Max Wright</title>
+    <title>Max is Wright — Home</title>
 </head>
-<body class="bg-blue-200">
+<body class="bg-lightishblue">
 
     <!-- NAVIGATION -->
-    <div class="w-full mx-auto fixed top-0 right-0">
+    <div class="w-full mx-auto fixed top-0 right-0 z-30">
     <nav class="container mx-auto top-0 right-0 relative mt-3">
 
         <!-- NAV FRAME -->
-        <div class="bg-white rounded-md absolute top-0 right-0 pl-2 pr-2 py-1.5 w-48 h-fit">
+        <div class="bg-white rounded-md absolute top-0 right-0 pl-2 pr-2 py-1.5 w-48 h-fit drop-shadow-2xl">
 
             <!-- BUTTONS -->
             <div class="w-full h-fit grid grid-cols-3 gap-x-2 gap-y-0 items-center">
@@ -98,12 +100,39 @@
     </nav>
     </div>
     
-    <main class="w-screen">
+    <!-- BODY CONTENT -->
+    <main class="container mx-auto z-20">
+        <div class="w-full text-center">
+            <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
+        </div>
+
+        <div class="flex flex-col">
+            <div class="flex justify-end">
+                <div class="w-11/12 md:w-9/12 rounded-lg overflow-hidden drop-shadow-lg">
+                    <img src="Assets/Images/FontFacing/Hero_Image.png" alt="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available.">
+                </div>
+            </div>
+            <div class="-mt-24 mb-24 md:-mt-36 md:mb-36 w-9/12 md:w-1/2 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl">
+                <h1 class="text-2xl mb-4">Overview</h1>
+                <div class="text-sm space-y-4">
+                    <p>FontFacing is a desktop app designed to speed up workflows when designing typefaces and letterforms. At its core, the goal is to design the visual interface around a system which uses artificial intelligence and machine learning in a way which helps the user understand how the system is working under the hood and so that the user has input in the way the system is working, analyzing, and training.</p>
+                    <p>Although the final deliverable isn’t meant to be a working AI system, the foundational research and overall concept has to point to a system with real-world feasibility.</p>
+                </div>
+            </div>
+            <div class="mx-auto w-fit flex w-full flex-row flex-wrap justify-center md:justify-start items-center bg-fontfacingblue rounded-md px-4 py-2 space-y-2 md:space-y-0 space-x-2">
+                <h1 class="text-2xl text-white w-full md:w-fit text-center md:text-left">Details</h1>
+                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Desktop App Concept</span>
+                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">2023</span>
+                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">14 Weeks (May - August)</span>
+                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Solo Project</span>
+            </div>
+        </div>
+
         <div class="h-screen"></div>
     </main>
 
     <!-- FOOTER -->
-    <footer class="w-screen bg-mint">
+    <footer class="w-screen bg-mint z-10">
 
         <!-- SHADOW -->
         <div class="h-8 w-full bg-gradient-to-b from-black/30 to-black/0 mb-8"></div>

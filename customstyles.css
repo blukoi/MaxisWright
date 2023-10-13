@@ -54,6 +54,10 @@ body {
 }
 
 /* HAMBURGER MENU STYLES */
+/* HAMBURGER MENU STYLES */
+/* HAMBURGER MENU STYLES */
+/* HAMBURGER MENU STYLES */
+/* HAMBURGER MENU STYLES */
 
 #menu-btn {
     top: -100%;
@@ -100,4 +104,14 @@ body {
 
 .menu-btn:checked ~ .menu-icon .hamburgericon .middle2 {
     transform: rotate(45deg);
+}
+
+/* BODY CONTENT STYLES */
+/* BODY CONTENT STYLES */
+/* BODY CONTENT STYLES */
+/* BODY CONTENT STYLES */
+/* BODY CONTENT STYLES */
+
+h1, h2, h3, h4 {
+    font-family: 'Optician Sans';
 }
