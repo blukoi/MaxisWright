@@ -74,7 +74,9 @@ body {
     transform: rotate(0deg);
     transform-origin: center;
     opacity: 1;
-    transition: all .2s ease-out;
+    transition:
+        transform .2s ease-out,
+        opacity .2s ease-out;
 }
 
 .menu {
@@ -98,9 +100,4 @@ body {
 
 .menu-btn:checked ~ .menu-icon .hamburgericon .middle2 {
     transform: rotate(45deg);
-}
-
-.menu-btn:checked ~ .menu-icon .navicon:before,
-.menu-btn:checked ~ .menu-icon .navicon:after {
-    top: 0;
 }
