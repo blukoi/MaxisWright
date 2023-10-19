@@ -166,7 +166,7 @@
 
     <!-- MODALS -->
     <article class="w-screen h-screen z-[100] top-0 left-0 fixed flex justify-center" id="ff-research">
-        <div class="w-1/2 h-1/2 rounded-lg bg-white p-4 drop-shadow-2xl">
+        <div class="w-1/2 h-1/2 rounded-lg bg-white p-4 pb-16 drop-shadow-2xl">
             <div class="flex flex-row justify-between">
                 <h1 class="text-2xl mb-4">Research & Background</h1>
                 <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-research-close">
@@ -175,14 +175,16 @@
                     </span>
                 </div>
             </div>
-            <div class="w-full overflow-y-scroll">
+            <div class="w-full h-full pb-8 overflow-scroll bg-white">
                 <div class="text-sm space-y-4">
                     <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
                     <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
                 </div>
-                <div class="w-full h-0.5 bg-black/20 rounded-full mb-8 mt-6"></div>
+                <div class="w-full h-0.5 bg-black/20 rounded-full my-6"></div>
                 <div class="text-sm space-y-4">
                     <p>When I started this project, I had to create a training model to understand how AI analyzes the content that it's trained on in order to form the training model that will then be used.</p>
+                    <p>At the time, I had hundreds of photos of beers that I've taken over a few years just sitting around waiting to be used for something, so I made the first training model using around 1,000 of these photos. Some contain things in the background, like a bar, living room, and even people, and some are on a white background. Some show one, two, or three cans or bottles in various sizes. Most of them show a glass that's been filled with beer, and some show multiple glasses that have been filled with beer.</p>
+                    <p>This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at ay of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model.</p>
                 </div>
             </div>
         </div>
