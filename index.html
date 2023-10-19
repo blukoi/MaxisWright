@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="customstyles.css">
     <link rel="stylesheet" href="https://use.typekit.net/ngx6nxn.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="customscripts.js"></script>
 
     <!-- Favicon Links -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
@@ -165,8 +166,8 @@
     </main>
 
     <!-- MODALS -->
-    <article class="w-screen h-screen z-[100] top-0 left-0 fixed flex justify-center" id="ff-research">
-        <div class="w-1/2 h-1/2 rounded-lg bg-white p-4 pb-16 drop-shadow-2xl">
+    <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-research-bg">
+        <div class="w-11/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-research-modal">
             <div class="flex flex-row justify-between">
                 <h1 class="text-2xl mb-4">Research & Background</h1>
                 <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-research-close">
@@ -176,7 +177,7 @@
                 </div>
             </div>
             <div class="w-full h-full pb-8 overflow-scroll bg-white">
-                <div class="text-sm space-y-4">
+                <div class="text-sm space-y-4 opacity-50">
                     <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
                     <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
                 </div>
@@ -184,7 +185,9 @@
                 <div class="text-sm space-y-4">
                     <p>When I started this project, I had to create a training model to understand how AI analyzes the content that it's trained on in order to form the training model that will then be used.</p>
                     <p>At the time, I had hundreds of photos of beers that I've taken over a few years just sitting around waiting to be used for something, so I made the first training model using around 1,000 of these photos. Some contain things in the background, like a bar, living room, and even people, and some are on a white background. Some show one, two, or three cans or bottles in various sizes. Most of them show a glass that's been filled with beer, and some show multiple glasses that have been filled with beer.</p>
-                    <p>This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at ay of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model.</p>
+                    <p>This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at any of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model. I gathered 30 beers (all 16-ounce cans) and took new photos with each can against a white backdrop, although I staggered the angles and composition of the photos. This training model was different, but provided much more insight as to how the system was analyzing the given photos.</p>
+                    <p>For the hands-on research, I made one last model with very simple images, 30 different versions of a capital 'A', each one black on a white background. The output from this (seen to the right) may seem like a poor result but, to the contrary, I believe that it serves as concrete proof that I'm thinking about the concept correctly: an AI training model is perfectly capable of finding patterns, consistent details, and unique attributes and then recreating those aspects... as long as it's given an appropriate context.</p>
+                    <p>I did additional research regarding AI systems working on vector images, as well as the current prevalence of AI in the creation, recreation, and/or expansion of typographic systems. There's currently a lot of work put into text (copy) generation, but not a lot of work put into typeface or letterform generation.</p>
                 </div>
             </div>
         </div>
