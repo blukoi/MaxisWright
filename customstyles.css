@@ -128,6 +128,30 @@ h1, h2, h3, h4 {
     font-family: 'Optician Sans';
 }
 
+.jumbotron1 {
+    background: url(./Assets/gradient1.png);
+    background-size: cover;
+}
+
+.jumbotron2 {
+    background: url(./Assets/gradient2.png);
+    background-size: cover;
+    opacity: 0%;
+    animation: pulse 60s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}  
+
 /* MODALS */
 /* MODALS */
 /* MODALS */

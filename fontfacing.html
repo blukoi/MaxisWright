@@ -35,7 +35,7 @@
     </script>
 
     <!-- Page Title -->
-    <title>Max is Wright — Home</title>
+    <title>Max is Wright — FontFacing</title>
 </head>
 <body class="bg-lightishblue">
 
@@ -105,23 +105,22 @@
     </div>
     
     <!-- BODY CONTENT -->
-    <main class="z-20">
-    <div class="w-full h-screen -mt-24 jumbotron1 relative">
-        <div class="w-full h-full jumbotron2 absolute"></div>        
-    </div>
-
-    <div class="container mx-auto">
+    <main class="container mx-auto z-20">
 
         <div class="w-full text-center">
             <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
         </div>
 
         <div class="flex flex-col">
+
+            <!-- HERO IMAGE -->
             <div class="flex justify-end">
                 <div class="w-11/12 md:w-9/12 rounded-lg overflow-hidden drop-shadow-lg">
                     <img src="Assets/Images/FontFacing/Hero_Image.png" alt="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available.">
                 </div>
             </div>
+
+            <!-- OVERVIEW -->
             <div class="-mt-24 mb-24 md:-mt-36 md:mb-36 w-9/12 md:w-1/2 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl">
                 <h1 class="text-2xl mb-4">Overview</h1>
                 <div class="text-sm space-y-4">
@@ -129,63 +128,238 @@
                     <p>Although the final deliverable isn’t meant to be a working AI system, the foundational research and overall concept has to point to a system with real-world feasibility and the visual design has to highlight the featured AI systems. This is not a platform where the AI is an afterthought, it has to be an integral part of the concept.</p>
                 </div>
             </div>
-            <div class="mx-auto mb-24 md:mb-36 xl:mb-48 w-fit flex w-full flex-row flex-wrap justify-center md:justify-start items-center bg-fontfacingblue rounded-md px-4 py-2 space-y-2 md:space-y-0 space-x-2">
+
+            <!-- PROJECT DETAILS -->
+            <div class="mx-auto mb-24 md:mb-36 w-fit flex w-full flex-row flex-wrap justify-center md:justify-start items-center bg-fontfacingblue rounded-md px-4 py-2 space-y-2 md:space-y-0 space-x-2">
                 <h1 class="text-2xl text-white w-full md:w-fit text-center md:text-left">Details</h1>
                 <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Desktop App Concept</span>
                 <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">2023</span>
                 <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">14 Weeks (May - August)</span>
                 <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Solo Project</span>
             </div>
-            <div class="flex justify-center">
-                <div class="w-9/12 md:w-5/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
-                    <h1 class="text-2xl mb-4">Research & Background</h1>
-                    <div class="text-sm space-y-4">
-                        <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
-                        <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
-                    </div>
-                    <divc class="w-full mt-4 flex flex-row justify-end">
-                        <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-research-readmore">
-                            <p>Read more</p>
-                            <span class="material-symbols-rounded">
-                            description
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="-mt-8 mb-24 sm:-mt-24 md:-mt-48 lg:-mt-72 xl:-mt-96 md:mb-36 w-full drop-shadow-lg z-30 grid grid-cols-3">
-                    <div class="bg-video rounded-lg overflow-hidden">
+
+            <!-- CONTENT SECTION -->
+            <div class="flex flex-col mb-24 md:mb-36">
+                <div class="w-full grid grid-cols-3 drop-shadow-lg z-30">
+                    <div class="bg-video rounded-lg overflow-hidden relative col-span-2 md:col-span-1">
                         <video class="bg-video__content" title="Different versions of the letter 'A' put into a training model" autoplay muted loop>
                             <source src="Assets/Images/FontFacing/Training/Letter_A_Input.mp4" type="video/mp4">
                         </video>
+                        <div class="absolute top-4 left-4">
+                            <p class="text-xs text-black/20">30 different <span class="italic">A</span>'s as input</p>
+                        </div>
                     </div>
-                    <div class="bg-video rounded-lg overflow-hidden col-start-3">
+                </div>
+                <div class="w-full flex justify-center -my-12 md:-my-16 lg:-my-36">
+                    <div class="w-9/12 lg:w-7/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
+                        <h1 class="text-2xl mb-4">Research & Background</h1>
+                        <div class="text-sm space-y-4">
+                            <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
+                            <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
+                        </div>
+                        <div class="w-full mt-4 flex flex-row justify-end">
+                            <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-research-readmore">
+                                <p>Read more</p>
+                                <span class="material-symbols-rounded">
+                                description
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full grid grid-cols-3 drop-shadow-lg z-30">
+                    <div class="bg-video rounded-lg overflow-hidden col-start-2 md:col-start-3 relative col-span-2 md:col-span-1">
                         <video class="bg-video__content" title="A variety of different versions of the letter 'A' that were generated by the completed training model" autoplay muted loop>
                             <source src="Assets/Images/FontFacing/Training/Letter_A_Output.mp4" type="video/mp4">
                         </video>
+                        <div class="absolute bottom-4 left-4">
+                            <p class="text-xs text-black/20">30 different generated <span class="italic">A</span>'s</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 mb-8 md:mb-12 -mt-20 -mt-32">
+                <div class="bg-white rounded-lg drop-shadow-2xl p-4 col-span-8 md:col-span-6 col-start-3 md:col-start-1">
+                    <img src="./Assets/Images/FontFacing/Frame 2.png" alt="A comparison of capital A's generated by ChatGPT and Adobe Illustrator's Beta AI">
+                    <p class="text-xs text-black/20">Left: a capital A made of XML/SVG markup generated by ChatGPT; right: a capital A generated in Adobe Illustrator via Adobe's beta AI generation.</p>
+                </div>
+            </div>
+
+            <!-- CONTENT SECTION -->
+            <div class="flex flex-col mb-24 md:mb-36">
+                <div class="w-full grid grid-cols-12 drop-shadow-lg z-30">
+                    <div class="bg-video rounded-lg overflow-hidden relative col-span-12 sm:col-span-9 md:col-span-5 sm:col-start-4 md:col-start-8">
+                        <img src="./Assets/Images/FontFacing/Wireframe - 4.png" alt="A low fidelity wireframe from the first round of ideating">
+                    </div>
+                </div>
+                <div class="w-full flex justify-center -my-6 md:-my-12 lg:-my-24">
+                    <div class="w-9/12 lg:w-7/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
+                        <h1 class="text-2xl mb-4">Starting to Design</h1>
+                        <div class="text-sm space-y-4">
+                            <p>When I started to design, my original idea was a webapp that was much more aimed at typeface design using some basic text entry and drawing tools. The incorporation of AI was, at most, an additional feature or tool rather than the main driving force. I ended up pivoting to a desktop app since I’d never designed for one.</p>
+                            <p>In the process I looked to familiar design platforms, the obvious ones like Adobe, and some type design platforms, like FontLab, for some inspiration.</p>
+                        </div>
+                        <div class="w-full mt-4 flex flex-row justify-end">
+                            <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-designing-readmore">
+                                <p>Read more</p>
+                                <span class="material-symbols-rounded">
+                                description
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full grid grid-cols-12 drop-shadow-lg z-30">
+                    <div class="bg-video overflow-hidden rounded-lg bg-white relative col-span-12 sm:col-span-9 md:col-span-5">
+                        <img src="./Assets/Images/FontFacing/FontLab.png" alt="A screenshot from a typeface designing software called FontLab Studio">
+                        <p class="text-xs text-black/20 p-4">Screenshot from FontLab</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 mb-8 md:mb-12 -mt-20 -mt-32">
+                <div class="bg-white rounded-lg drop-shadow-2xl p-4 col-span-6 md:col-span-4 col-start-7 md:col-start-9">
+                    <img src="./Assets/Images/FontFacing/" alt="A comparison of capital A's generated by ChatGPT and Adobe Illustrator's Beta AI">
+                    <p class="text-xs text-black/20">How I imagine the AI would analyze input to create a model for each new design file.</p>
+                </div>
+            </div>
+
+            <!-- CONTENT SECTION -->
+            <div class="flex flex-col mb-24 md:mb-36">
+                <div class="w-full flex justify-start -mb-4 md:-mb-6">
+                    <div class="w-9/12 md:w-7/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
+                        <h1 class="text-2xl mb-4">Making Revisions</h1>
+                        <div class="text-sm space-y-4">
+                            <p>As I designed, I realized that the AI features, as I’d implemented them, were still a simple addition to the existing suite of drawing and editing tools. The first medium fidelity version of a real AI implementation was a simple modal which opened when you started a new typeface file, along with some context menu options.</p>
+                            <p>I wanted the platform to feel like a fully invested piece of AI-driven software, so I had to revise the overall design so that the AI features were a constant with prominent calls to action. I moved the AI features to the menu bar, always there, to push them into a kind of “more important” state than the rest of the tool bar.</p>
+                        </div>
+                        <div class="w-full mt-4 flex flex-row justify-end">
+                            <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-revision-readmore">
+                                <p>Read more</p>
+                                <span class="material-symbols-rounded">
+                                description
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full grid grid-cols-12 drop-shadow-lg -mb-2 md:-mb-4 z-30">
+                    <div class="bg-video rounded-lg overflow-hidden relative col-span-9 md:col-span-6 col-start-4 md:col-start-7">
+                        <img src="./Assets/Images/FontFacing/Frame 36.png" alt="A medium fidelity wireframe showing a pop-up modal with tabs to choose the method by which to start working on a new design file">
+                    </div>
+                </div>
+                <div class="w-full grid grid-cols-12 drop-shadow-lg z-[29]">
+                    <div class="bg-video overflow-hidden rounded-lg bg-white relative col-span-12 md:col-span-11">
+                        <img src="./Assets/Images/FontFacing/Component 5.png" alt="A higher fidelity wireframe showing a toolbar in a desktop application which features permanent AI generation features">
                     </div>
                 </div>
             </div>
 
         </div>
 
-    </div>
-
     </main>
 
     <!-- MODALS -->
+
+    <!-- RESEARCH -->
     <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-research-bg">
-        <div class="w-11/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-research-modal">
-            <div class="flex flex-row justify-between">
-                <h1 class="text-2xl mb-4">Title</h1>
+        <div class="w-12/12 md:w-9/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-research-modal">
+            <div class="flex flex-row justify-between h-fit">
+                <h1 class="text-2xl mb-4">Research & Background</h1>
                 <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-research-close">
                     <span class="material-symbols-rounded">
                         close
                     </span>
                 </div>
             </div>
-            <div class="w-full h-full pb-8 overflow-scroll bg-white">
-                <div class="text-sm space-y-4 opacity-50">
-                    <!-- Content of Modal -->
+            <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
+                    <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
+                    <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
+                </div>
+                <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
+                <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                    <p class="col-span-8">When I started this project, I had to create a training model to understand how AI analyzes the content that it's trained on in order to form the training model that will then be used.</p>
+                    <p class="col-span-8">At the time, I had hundreds of photos of beers that I've taken over a few years just sitting around waiting to be used for something, so I made the first training model using around 1,000 of these photos. Some contain things in the background, like a bar, living room, and even people, and some are on a white background. Some show one, two, or three cans or bottles in various sizes. Most of them show a glass that's been filled with beer, and some show multiple glasses that have been filled with beer.</p>
+                    <p class="col-span-8">This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at any of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model. I gathered 30 beers (all 16-ounce cans) and took new photos with each can against a white backdrop, although I staggered the angles and composition of the photos. This training model was different, but provided much more insight as to how the system was analyzing the given photos.</p>
+                    <p class="col-span-8">For the hands-on research, I made one last model with very simple images, 30 different versions of a capital 'A', each one black on a white background. The output from this (seen to the right) may seem like a poor result but, to the contrary, I believe that it serves as concrete proof that I'm thinking about the concept correctly: an AI training model is perfectly capable of finding patterns, consistent details, and unique attributes and then recreating those aspects... as long as it's given an appropriate context.</p>
+                    <p class="col-span-8">I did additional research regarding AI systems working on vector images, as well as the current prevalence of AI in the creation, recreation, and/or expansion of typographic systems. There's currently a lot of work put into text (copy) generation, but not a lot of work put into typeface or letterform generation.</p>
+                    <p class="col-span-8">In particular, I was inspired by the work of Erik Bern, Jean Böhm, and Måns Grebäck. These 3 designers (writing about their experiments in 2016, 2020, and 2022, respectively) have all worked in the space of typeface generation. Erik Bern used 50,000 fonts to train a neural network; Jean Böhm advanced and refined AI abilities to work with SVG paths and anchor points; Måns Grebäck experimented with machine learning in the use of Stable Diffusion to generate new or stylistically similar typefaces to those he provided. All of their work served as proof that my concept could work, I just had to design an interface for it.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- STARTING TO DESIGN -->
+    <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-designing-bg">
+        <div class="w-12/12 md:w-9/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-designing-modal">
+            <div class="flex flex-row justify-between h-fit">
+                <h1 class="text-2xl mb-4">Starting to Design</h1>
+                <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-designing-close">
+                    <span class="material-symbols-rounded">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
+                <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                    <p class="col-span-8"></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- REVISIONS -->
+    <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-revisions-bg">
+        <div class="w-12/12 md:w-9/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-revisions-modal">
+            <div class="flex flex-row justify-between h-fit">
+                <h1 class="text-2xl mb-4">Making Revisions</h1>
+                <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-revisions-close">
+                    <span class="material-symbols-rounded">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
+                <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                    <p class="col-span-8"></p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- FINAL THOUGHTS -->
+    <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-finalthoughts-bg">
+        <div class="w-12/12 md:w-9/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-finalthoughts-modal">
+            <div class="flex flex-row justify-between h-fit">
+                <h1 class="text-2xl mb-4">Final Thoughts</h1>
+                <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-finalthoughts-close">
+                    <span class="material-symbols-rounded">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
+                    <p></p>
+                    <p></p>
+                </div>
+                <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
+                <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                    <p class="col-span-8"></p>
                 </div>
             </div>
         </div>
