@@ -105,66 +105,42 @@
     </div>
     
     <!-- BODY CONTENT -->
-    <main class="z-20">
-    <div class="w-full h-screen -mt-24 jumbotron1 relative">
-        <div class="w-full h-full jumbotron2 absolute"></div>        
+    <main>
+    <div class="w-full h-screen -mt-24 jumbotron1 relative z-10 bg-white">
+        <div class="w-full h-full jumbotron2 absolute"></div>
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 container mx-auto w-full h-full">
+            <div class="flex flex-col justify-center items-start w-full h-full">
+                <h1 class="mb-4 text-4xl md:text-6xl px-4 py-2 bg-white text-mint rounded-lg">Hi! I'm Max,</h1>
+                <h1 class="text-4xl md:text-6xl text-white">a<span class="txt-rotate" data-period="2000" data-rotate='[ " visual", "n interaction", " UX/UI", " research", " user-focused", "n empathetic" ]'></span><span class="text-white"> designer, eager to learn new things and create thoughtful solutions.</span></h1>
+            </div>
+        </div>      
     </div>
 
-    <div class="container mx-auto">
+    <div class="container mx-auto relative z-40">
 
         <div class="w-full text-center">
-            <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
+            <div class="-mt-48 mb-36 text-6xl text-fontfacingblue grid grid-cols-12 gap-4">
+                <div class="col-span-12 text-lg flex justify-center text-white text-center mb-12">
+                    <h6 class="w-fit p-4 mx-4 rounded-md bg-mint/50">I love to design for all kinds of different mediums, but this is my most recent project:</h6>
+                </div>
+                <img src="./Assets/Images/FontFacing/FF_Macbook.png" alt="A mockup of a desktop app for typeface design being used on a MacBook" class="col-span-12 md:col-span-6">
+                <div class="col-span-12 md:col-span-6 text-center md:text-left self-start md:self-end justify-center">
+                    <div class="w-full justify-center md:justify-start">
+                        <a href="./fontfacing.html" class="w-fit flex flex-col mx-auto md:mx-0 rounded-md p-4 space-y-4 bg-fontfacingblue hover:bg-mint text-sm text-white hover:text-white flex flex-row cursor-pointer">
+                            <h3 class="text-4xl">FontFacing: a concept for AI-driven typeface design</h3>
+                            <div class="w-full flex flex-row justify-end space-x-4">
+                                <p>Read more</p>
+                                <span class="material-symbols-rounded">
+                                description
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="flex flex-col">
-            <div class="flex justify-end">
-                <div class="w-11/12 md:w-9/12 rounded-lg overflow-hidden drop-shadow-lg">
-                    <img src="Assets/Images/FontFacing/Hero_Image.png" alt="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available.">
-                </div>
-            </div>
-            <div class="-mt-24 mb-24 md:-mt-36 md:mb-36 w-9/12 md:w-1/2 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl">
-                <h1 class="text-2xl mb-4">Overview</h1>
-                <div class="text-sm space-y-4">
-                    <p>FontFacing is a desktop app designed to speed up workflows when designing typefaces and letterforms. At its core, the goal is to design the visual interface around a system which uses artificial intelligence and machine learning in a way which helps the user understand how the system is working under the hood and so that the user has input in the way the system is working, analyzing, and training.</p>
-                    <p>Although the final deliverable isn’t meant to be a working AI system, the foundational research and overall concept has to point to a system with real-world feasibility and the visual design has to highlight the featured AI systems. This is not a platform where the AI is an afterthought, it has to be an integral part of the concept.</p>
-                </div>
-            </div>
-            <div class="mx-auto mb-24 md:mb-36 xl:mb-48 w-fit flex w-full flex-row flex-wrap justify-center md:justify-start items-center bg-fontfacingblue rounded-md px-4 py-2 space-y-2 md:space-y-0 space-x-2">
-                <h1 class="text-2xl text-white w-full md:w-fit text-center md:text-left">Details</h1>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Desktop App Concept</span>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">2023</span>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">14 Weeks (May - August)</span>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Solo Project</span>
-            </div>
-            <div class="flex justify-center">
-                <div class="w-9/12 md:w-5/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
-                    <h1 class="text-2xl mb-4">Research & Background</h1>
-                    <div class="text-sm space-y-4">
-                        <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
-                        <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
-                    </div>
-                    <divc class="w-full mt-4 flex flex-row justify-end">
-                        <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-research-readmore">
-                            <p>Read more</p>
-                            <span class="material-symbols-rounded">
-                            description
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="-mt-8 mb-24 sm:-mt-24 md:-mt-48 lg:-mt-72 xl:-mt-96 md:mb-36 w-full drop-shadow-lg z-30 grid grid-cols-3">
-                    <div class="bg-video rounded-lg overflow-hidden">
-                        <video class="bg-video__content" title="Different versions of the letter 'A' put into a training model" autoplay muted loop>
-                            <source src="Assets/Images/FontFacing/Training/Letter_A_Input.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="bg-video rounded-lg overflow-hidden col-start-3">
-                        <video class="bg-video__content" title="A variety of different versions of the letter 'A' that were generated by the completed training model" autoplay muted loop>
-                            <source src="Assets/Images/FontFacing/Training/Letter_A_Output.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
 
         </div>
 
