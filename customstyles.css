@@ -124,8 +124,13 @@ body {
 /* BODY CONTENT STYLES */
 /* BODY CONTENT STYLES */
 
-h1, h2, h3, h4 {
+h1, h2 {
     font-family: 'Optician Sans';
+}
+
+h3, h4, h5, h6 {
+    font-family: "brother-1816", sans-serif;
+    font-style: normal;
 }
 
 .jumbotron1 {

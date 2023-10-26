@@ -91,10 +91,10 @@
                 <!-- MENU OPTIONS -->
                 <div class="text-sm menu col-span-3">
                     <div class="flex flex-col w-full space-y-2 text-xs text-right tracking-widest uppercase pb-2 pt-2 pr-2">
-                        <a href="" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">Work</a>
-                        <a href="" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">Experiments</a>
-                        <a href="" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">About</a>
-                        <a href="" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">Links & Social</a>
+                        <a href="./work.html" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">Work</a>
+                        <a href="./experiments.html" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">Experiments</a>
+                        <a href="./about.html" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">About</a>
+                        <a href="./links.html" class="hover:bg-mint hover:text-white rounded -mr-2 -my-1 px-2 py-2">Links & Social</a>
                     </div>
                 </div>
             </div>
@@ -246,12 +246,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full grid grid-cols-12 drop-shadow-lg -mb-2 md:-mb-4 z-30">
+                <div class="w-full grid grid-cols-12 drop-shadow-lg -mb-2 md:-mb-4 z-[29]">
                     <div class="bg-video rounded-lg overflow-hidden relative col-span-9 md:col-span-6 col-start-4 md:col-start-7">
                         <img src="./Assets/Images/FontFacing/Frame 36.png" alt="A medium fidelity wireframe showing a pop-up modal with tabs to choose the method by which to start working on a new design file">
                     </div>
                 </div>
-                <div class="w-full grid grid-cols-12 drop-shadow-lg z-[29]">
+                <div class="w-full grid grid-cols-12 drop-shadow-lg z-30">
                     <div class="bg-video overflow-hidden rounded-lg bg-white relative col-span-12 md:col-span-11">
                         <img src="./Assets/Images/FontFacing/Component 5.png" alt="A higher fidelity wireframe showing a toolbar in a desktop application which features permanent AI generation features">
                     </div>
@@ -306,12 +306,16 @@
             </div>
             <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
                 <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
-                    <p></p>
-                    <p></p>
+                    <p>When I started to design, my original idea was a webapp that was much more aimed at typeface design using some basic text entry and drawing tools. The incorporation of AI was, at most, an additional feature or tool rather than the main driving force. I ended up pivoting to a desktop app since I’d never designed for one.</p>
+                    <p>In the process I looked to familiar design platforms, the obvious ones like Adobe, and some type design platforms, like FontLab, for some inspiration.</p>
                 </div>
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
-                    <p class="col-span-8"></p>
+                    <p class="col-span-8">The first ideation, as a webapp, was not focused enough on being an empowering tool. The idea at this stage was a very easy to use, approachable webapp that was designed to be as simple as possible for new users to start designing, but was not a thorough design tool for serious typeface designers. This first exploration also didn't use the AI system to the fullest; it uses Ai behind the scenes and generates a typeface through a basic text prompt system, with some über simplistic drawing tools that can be used afterwards. This was inspired largely by the popularity of systems like ChatGPT and MidJourney, which were exploding in popular discussion and social awareness at the time I was designing this exploration.</p>
+                    <p class="col-span-8">It was very obvious that this concept needed a lot <span class="italic">more</span>. I started to look at platforms like Adobe Illustrator, FontLab, and Figma to see how popular design applications approach interface design as well as putting some more thought into the minimum level of tools that would be necessary to make a platform like this work for serious designers. At this stage, Adobe was starting to make public their beta AI tools and context menus, so I added a floating context menu to my next iteration. FontLab and Figma also heavily (almost entirely) utlize sidebars to show properties and options, so I added a sidebar to the right side to explore the use and representation of the AI analysis within the application.</p>
+                    <p class="col-span-8">One iteration points to the workflow of typeface designand the fact that there are different stages. As far as typeface design goes, there's always a basic sketching phase to explore the visual language, there's a focused stage where you can really get lost in the weeds of making tiny adjustments to every single anchor point, and there's a letterspacing phase at the end where you can fine tune the spacial relationships between each character. What an AI-driven workflow would add is a "live generation" mode to this. What this means is that the sketching phase (whether sketching in the application using drawing/vector tools or uploading photos of analog sketches or inputting a text prompt to generate some imagbery as an aesthetic basis) can be used as the input for the training model of an AI. The idea here is that once you enter into the "live generation" mode, the platform will build out the entirety of the typeface (all remaining characters that haven't been sketched, smooth anchor points, etc.) and then whenever you make changes to a character the AI can continuously take those changes as additional input and refine the rest of the typeface.</p>
+                    <p class="col-span-8">Before getting into the weeds of the visual design language for the interface, I did some more exploration of how to better incorporate the AI into a driving force and permanent aspect of the platform. To make it front and center, I brought it into a modal which would open immediately when starting a new file to allow some text input to generate a starting point or a file upload to allow immediate image training. Alongside this, I also did a variety of quick wireframes experimenting with the placement of the toolbar and some other elements.</p>
+                    <p class="col-span-8">This proved to be the final version of this interface, showing the entire typeface on a single, large artboard. The next versions would be a drastic change after some serious introspection and revisiting my research.</p>
                 </div>
             </div>
         </div>
@@ -330,11 +334,16 @@
             </div>
             <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
                 <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
-                    <p></p>
-                    <p></p>
+                    <p>As I designed, I realized that the AI features, as I’d implemented them, were still a simple addition to the existing suite of drawing and editing tools. The first medium fidelity version of a real AI implementation was a simple modal which opened when you started a new typeface file, along with some context menu options.</p>
+                    <p>I wanted the platform to feel like a fully invested piece of AI-driven software, so I had to revise the overall design so that the AI features were a constant with prominent calls to action. I moved the AI features to the menu bar, always there, to push them into a kind of “more important” state than the rest of the tool bar.</p>
                 </div>
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
+                    <p class="col-span-8">To start working on my visual design language and really define the appearance and experience of using the interface, I did some explorations of verbiage relative to line, shape, color, form, space, and texture. This was a long process because I was never quite satisfied with the design aspects; none of them seemed quite right. (More on this later.)</p>
+                    <p class="col-span-8">I took a step back from my interface design to ponder. The original idea to have one larger working area and showing all of the characters within the typeface, was to point to a workflow where you can easily zoom in and out of your work to see your micro changes against the overarching macro design of the typeface. I realized, however, that working on typefaces is often spent on details, zoomed into the letterforms; I also noticed that after adding the sidebar windows to showcase the AI analysis and generation (overarching navigation view in the bottom right) that they served a similar purpose of making the macro visible to the designer.</p>
+                    <p class="col-span-8">Alongside the change to individual artboards for each letterform, I needed a way to navigate between these artboards. When looking at the interface of Figma (a central working area bookended by sidebars on the left and right, with layers on the left and properties on the right), I realized that an artboard for a single character would be compact enough that having a sidebar on the left of the window wouldn't inhibit the working area and would also give me a space to house the "layers" of the template, guidelines, shapes, etc.</p>
+                    <p class="col-span-8"></p>
+                    <p class="col-span-8"></p>
                     <p class="col-span-8"></p>
                 </div>
             </div>
@@ -360,6 +369,9 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8"></p>
+                    <p class="col-span-8"></p>
+                    <p class="col-span-8"></p>
+                    <p class="col-span-8"></p>
                 </div>
             </div>
         </div>
@@ -376,10 +388,10 @@
 
             <!-- LINKS -->
             <div class="w-full flex flex-col uppercase text-sm tracking-widest space-y-2">
-                <a href="" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">Work</a>
-                <a href="" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">Experiments</a>
-                <a href="" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">About</a>
-                <a href="" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">Links & Social</a>
+                <a href="./work.html" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">Work</a>
+                <a href="./experiments.html" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">Experiments</a>
+                <a href="./about.html" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">About</a>
+                <a href="./links.html" class="w-fit bg-transparent hover:bg-white text-black/50 hover:text-mint rounded -ml-2 px-2 py-1">Links & Social</a>
             </div>
 
             <!-- DIVIDER -->

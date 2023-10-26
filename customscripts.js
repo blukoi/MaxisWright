@@ -1,3 +1,9 @@
+// READ MORE MODALS
+// READ MORE MODALS
+// READ MORE MODALS
+// READ MORE MODALS
+// READ MORE MODALS
+
 document.addEventListener('DOMContentLoaded', function () {
     const ffReadMore = document.getElementById('ff-research-readmore');
     const ffBackground = document.getElementById('ff-research-bg');
@@ -8,12 +14,14 @@ document.addEventListener('DOMContentLoaded', function () {
         ffBackground.classList.add('activebg');
         ffModal.classList.add('activemodal');
         addClickOutsideListener();
+        disableScroll(); //DISABLE BODY SCROLL
     });
 
     ffClose.addEventListener('click', function () {
         ffBackground.classList.remove('activebg');
         ffModal.classList.remove('activemodal');
         removeClickOutsideListener();
+        enableScroll(); // ENABLE BODY SCROLL
     });
 
     function closeOnClickOutside(event) {
@@ -21,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ffBackground.classList.remove('activebg');
             ffModal.classList.remove('activemodal');
             removeClickOutsideListener();
+            enableScroll(); // ENABLE BODYBSCROLL
         }
     }
 
@@ -30,6 +39,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function removeClickOutsideListener() {
         document.removeEventListener('click', closeOnClickOutside);
+    }
+
+    function disableScroll() {
+        document.body.style.overflow = 'hidden';
+    }
+
+    function enableScroll() {
+        document.body.style.overflow = 'auto';
     }
 });
 
@@ -138,7 +155,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-
+// INDEX TYPING EFFECT
+// INDEX TYPING EFFECT
+// INDEX TYPING EFFECT
+// INDEX TYPING EFFECT
+// INDEX TYPING EFFECT
 
 var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -190,7 +211,7 @@ var TxtRotate = function(el, toRotate, period) {
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
       }
     }
-    // INJECT CSS
+    
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
