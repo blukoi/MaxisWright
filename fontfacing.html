@@ -107,10 +107,12 @@
     <!-- BODY CONTENT -->
     <main class="container mx-auto z-20">
 
+        <!-- TITLE -->
         <div class="w-full text-center">
             <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
         </div>
 
+        <!-- BODY CONTENT -->
         <div class="flex flex-col">
 
             <!-- HERO IMAGE -->
@@ -258,6 +260,39 @@
                 </div>
             </div>
 
+            <!-- CONTENT SECTION -->
+            <div class="flex flex-col mb-24 md:mb-36">
+                <div class="w-full flex justify-end -mb-4 md:-mb-6">
+                    <div class="w-9/12 md:w-7/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
+                        <h1 class="text-2xl mb-4">Finishing Up</h1>
+                        <div class="text-sm space-y-4">
+                            <p>I think designers can easily get sucked into the common pitfall of thinking that their first idea is the best idea. However, when I look at this project, the concept may not have changed all that much (although it definitely got much more in-depth) the interface changed drastically.</p>
+                            <p>I'm glad that I made the decision to switch from a webapp to a desktop platform. In terms of the GUI there aren't that many differences in capability (just look at Figma, who manages to make both versions work, although their desktop app is essentially just the webapp hosted in a custom browser) but the switch to a desktop platform helped to further inform and specify the kind of designer, workflow, and AI possibilities that I should aim for.</p>
+                        </div>
+                        <div class="w-full mt-4 flex flex-row justify-end">
+                            <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-finalthoughts-readmore">
+                                <p>Read more</p>
+                                <span class="material-symbols-rounded">
+                                description
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BODY END -->
+        <div class="flex flex-col">
+            <div class="w-full grid grid-cols-12 gap-4 drop-shadow-lg my-48">
+                <div class="col-span-12 md:col-span-6 relative">
+                    <div class="w-1/2 h-48 bg-black/20 absolute top-1/2 left-0 -translate-y-1/2 rounded-md"></div>
+                    <div class="align-self-center col-span-6 col-start-7 text-xl sm:text-2xl lg:text-4xl font-bold">
+                        <h3 class="px-4 py-2 bg-mint text-white rounded-md">More of My Work</h3>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </main>
@@ -283,11 +318,17 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">When I started this project, I had to create a training model to understand how AI analyzes the content that it's trained on in order to form the training model that will then be used.</p>
+                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">At the time, I had hundreds of photos of beers that I've taken over a few years just sitting around waiting to be used for something, so I made the first training model using around 1,000 of these photos. Some contain things in the background, like a bar, living room, and even people, and some are on a white background. Some show one, two, or three cans or bottles in various sizes. Most of them show a glass that's been filled with beer, and some show multiple glasses that have been filled with beer.</p>
+                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at any of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model. I gathered 30 beers (all 16-ounce cans) and took new photos with each can against a white backdrop, although I staggered the angles and composition of the photos. This training model was different, but provided much more insight as to how the system was analyzing the given photos.</p>
+                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">For the hands-on research, I made one last model with very simple images, 30 different versions of a capital 'A', each one black on a white background. The output from this (seen to the right) may seem like a poor result but, to the contrary, I believe that it serves as concrete proof that I'm thinking about the concept correctly: an AI training model is perfectly capable of finding patterns, consistent details, and unique attributes and then recreating those aspects... as long as it's given an appropriate context.</p>
+                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">I did additional research regarding AI systems working on vector images, as well as the current prevalence of AI in the creation, recreation, and/or expansion of typographic systems. There's currently a lot of work put into text (copy) generation, but not a lot of work put into typeface or letterform generation.</p>
+                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">In particular, I was inspired by the work of Erik Bern, Jean Böhm, and Måns Grebäck. These 3 designers (writing about their experiments in 2016, 2020, and 2022, respectively) have all worked in the space of typeface generation. Erik Bern used 50,000 fonts to train a neural network; Jean Böhm advanced and refined AI abilities to work with SVG paths and anchor points; Måns Grebäck experimented with machine learning in the use of Stable Diffusion to generate new or stylistically similar typefaces to those he provided. All of their work served as proof that my concept could work, I just had to design an interface for it.</p>
+                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                 </div>
             </div>
         </div>
@@ -363,8 +404,8 @@
             </div>
             <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
                 <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
-                    <p></p>
-                    <p></p>
+                    <p>I think designers can easily get sucked into the common pitfall of thinking that their first idea is the best idea. However, when I look at this project, the concept may not have changed all that much (although it definitely got much more in-depth) the interface changed drastically.</p>
+                    <p>I'm glad that I made the decision to switch from a webapp to a desktop platform. In terms of the GUI there aren't that many differences in capability (just look at Figma, who manages to make both versions work, although their desktop app is essentially just the webapp hosted in a custom browser) but the switch to a desktop platform helped to further inform and specify the kind of designer, workflow, and AI possibilities that I should aim for.</p>
                 </div>
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
