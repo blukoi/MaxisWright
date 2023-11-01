@@ -60,12 +60,14 @@ document.addEventListener('DOMContentLoaded', function () {
         ffBackground.classList.add('activebg');
         ffModal.classList.add('activemodal');
         addClickOutsideListener();
+        disableScroll(); //DISABLE BODY SCROLL
     });
 
     ffClose.addEventListener('click', function () {
         ffBackground.classList.remove('activebg');
         ffModal.classList.remove('activemodal');
         removeClickOutsideListener();
+        enableScroll(); // ENABLE BODY SCROLL
     });
 
     function closeOnClickOutside(event) {
@@ -73,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ffBackground.classList.remove('activebg');
             ffModal.classList.remove('activemodal');
             removeClickOutsideListener();
+            enableScroll(); // ENABLE BODYBSCROLL
         }
     }
 
@@ -82,6 +85,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function removeClickOutsideListener() {
         document.removeEventListener('click', closeOnClickOutside);
+    }
+
+    function disableScroll() {
+        document.body.style.overflow = 'hidden';
+    }
+
+    function enableScroll() {
+        document.body.style.overflow = 'auto';
     }
 });
 
@@ -95,12 +106,14 @@ document.addEventListener('DOMContentLoaded', function () {
         ffBackground.classList.add('activebg');
         ffModal.classList.add('activemodal');
         addClickOutsideListener();
+        disableScroll(); //DISABLE BODY SCROLL
     });
 
     ffClose.addEventListener('click', function () {
         ffBackground.classList.remove('activebg');
         ffModal.classList.remove('activemodal');
         removeClickOutsideListener();
+        enableScroll(); // ENABLE BODY SCROLL
     });
 
     function closeOnClickOutside(event) {
@@ -108,6 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ffBackground.classList.remove('activebg');
             ffModal.classList.remove('activemodal');
             removeClickOutsideListener();
+            enableScroll(); // ENABLE BODYBSCROLL
         }
     }
 
@@ -117,6 +131,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function removeClickOutsideListener() {
         document.removeEventListener('click', closeOnClickOutside);
+    }
+
+    function disableScroll() {
+        document.body.style.overflow = 'hidden';
+    }
+
+    function enableScroll() {
+        document.body.style.overflow = 'auto';
     }
 });
 
@@ -130,12 +152,14 @@ document.addEventListener('DOMContentLoaded', function () {
         ffBackground.classList.add('activebg');
         ffModal.classList.add('activemodal');
         addClickOutsideListener();
+        disableScroll(); //DISABLE BODY SCROLL
     });
 
     ffClose.addEventListener('click', function () {
         ffBackground.classList.remove('activebg');
         ffModal.classList.remove('activemodal');
         removeClickOutsideListener();
+        enableScroll(); // ENABLE BODY SCROLL
     });
 
     function closeOnClickOutside(event) {
@@ -143,6 +167,7 @@ document.addEventListener('DOMContentLoaded', function () {
             ffBackground.classList.remove('activebg');
             ffModal.classList.remove('activemodal');
             removeClickOutsideListener();
+            enableScroll(); // ENABLE BODYBSCROLL
         }
     }
 
@@ -152,6 +177,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function removeClickOutsideListener() {
         document.removeEventListener('click', closeOnClickOutside);
+    }
+
+    function disableScroll() {
+        document.body.style.overflow = 'hidden';
+    }
+
+    function enableScroll() {
+        document.body.style.overflow = 'auto';
     }
 });
 
