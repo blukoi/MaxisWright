@@ -28,6 +28,8 @@
                         mint: '#00ab8f',
                         lightishblue: '#eff7ff',
                         fontfacingblue: '#122f3c',
+                        tattooblue: '#4285f4',
+                        tattooalert: '#ff6f6f',
                     }
                 }
             }
@@ -35,9 +37,9 @@
     </script>
 
     <!-- Page Title -->
-    <title>Max is Wright — FontFacing</title>
+    <title>Max is Wright — Tattooo</title>
 </head>
-<body class="bg-lightishblue">
+<body class="bg-tattooblue">
 
     <!-- NAVIGATION -->
     <div class="w-full mx-auto fixed top-0 right-0 z-[90]">
@@ -107,37 +109,39 @@
     <!-- BODY CONTENT -->
     <main class="container mx-auto z-20">
 
-        <!-- TITLE -->
-        <div class="w-full text-center">
-            <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
+        <!-- TITLE + HERO -->
+        <div class="w-full text-left grid grid-cols-12 h-screen relative">
+            <img src="./Assets/Images/Tattooo/Logo.svg" alt="Simple text logo that reads 'Tatt.ooo'" class="absolute z-30 drop-shadow-lg top-1/4 md:top-1/2 -translate-y-1/2 p-4 w-full">
+            <img src="./Assets/Images/Tattooo/Tattooo_Home.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-5/12 sm:w-1/4 self-center absolute top-1/2 right-1/2 md:right-0 translate-x-1/2 md:-translate-x-1/2 -translate-y-1/4">
         </div>
 
         <!-- BODY CONTENT -->
         <div class="flex flex-col">
 
-            <!-- HERO IMAGE -->
-            <div class="flex justify-end">
-                <div class="w-11/12 md:w-9/12 rounded-lg overflow-hidden drop-shadow-lg">
-                    <img src="Assets/Images/FontFacing/Hero_Image.png" alt="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available.">
-                </div>
-            </div>
-
             <!-- OVERVIEW -->
-            <div class="-mt-24 mb-24 md:-mt-36 md:mb-36 w-9/12 md:w-1/2 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl">
+            <div class="mx-auto -mt-24 mb-24 md:-mt-36 md:mb-36 w-9/12 md:w-1/2 bg-white/50 backdrop-blur-md text-black p-4 rounded-md drop-shadow-2xl">
                 <h1 class="text-2xl mb-4">Overview</h1>
                 <div class="text-sm space-y-4">
-                    <p>FontFacing is a desktop app designed to speed up workflows when designing typefaces and letterforms. At its core, the goal is to design the visual interface around a system which uses artificial intelligence and machine learning in a way which helps the user understand how the system is working under the hood and so that the user has input in the way the system is working, analyzing, and training.</p>
-                    <p>Although the final deliverable isn’t meant to be a working AI system, the foundational research and overall concept has to point to a system with real-world feasibility and the visual design has to highlight the featured AI systems. This is not a platform where the AI is an afterthought, it has to be an integral part of the concept.</p>
+                    <p>Tatt.ooo is a mobile app (with related collateral, like dedicated iPads) designed to help tattoo enthusiasts and hopefuls find, connect with, and start building trusting and accountable relationships with tattoo artists.</p>
+                    <p>Some of the features for customers include a system to post your tattoo idea (with a description and inspiration), an accountable messaging system, the ability to easily ask for artwork edits, and a simple scheduling system. For artists, the Tatt.ooo platform can help centralize and simplify all of their public profiles and messaging systems, and can even give them a place to post available flash artwork.</p>
                 </div>
             </div>
 
             <!-- PROJECT DETAILS -->
-            <div class="mx-auto mb-24 md:mb-36 w-fit md:w-full flex flex-row flex-wrap justify-center md:justify-start items-center bg-fontfacingblue rounded-md md:rounded-full px-4 py-2 space-y-2 md:space-y-0 space-x-2">
-                <h1 class="text-2xl text-white w-full md:w-fit text-center md:text-left">Details</h1>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Desktop App Concept</span>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">2023</span>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">14 Weeks</span>
-                <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Solo Project</span>
+            <div class="mx-auto mb-24 md:mb-36 w-fit md:w-full flex flex-row flex-wrap justify-center md:justify-start items-center bg-white rounded-md md:rounded-full px-4 py-2 space-y-2 md:space-y-0 space-x-2">
+                <h1 class="text-2xl text-tattooalert w-full md:w-fit text-center md:text-left">Details</h1>
+                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">Mobile App</span>
+                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">High Fidelity Prototype</span>
+                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">2022</span>
+                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">14 Weeks</span>
+                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">Solo Project</span>
+            </div>
+
+            <!-- PROBLEM / MISSION STATEMENT -->
+            <div class="mb-48 mt-24 col-span-12 grid grid-cols-12 gap-4 font-light">
+                <h2 class="col-span-12 text-center text-4xl text-tattooalert">What's the problem?</h2>
+
+                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-5 text-center bg-whtie text-tattooblue p-4 rounded-md h-fit">Choosing to get a tattoo can be deeply personal and complex. Simply finding a tattoo artist can be incredibly difficult; there are so many different touchpoints and places to look, and reaching out to an artist can be intimidating. Many begin a collaborative process with an artist but are unsure of how to express their vision or needs, and its all too common to show up for your tattoo session without having seen the artwork beforehand.</div>
             </div>
 
             <!-- CONTENT SECTION -->
@@ -164,10 +168,10 @@
                 </div>
                 <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-4 xl:col-span-6 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 -mt-16 lg:-mt-24 z-40">
                     <div class="bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl">
-                        <h1 class="text-2xl mb-4">Research & Background</h1>
+                        <h1 class="text-2xl mb-4">Primary Research</h1>
                         <div class="text-sm space-y-4">
-                            <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
-                            <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
+                            <p>Of course, going into this project I only had my own tattoo experiences to go off of so I started the process by formally interviewing people with tattoos. I also had several informal conversations with some additional people regarding their tattoo experiences.</p>
+                            <p>After synthesizing the information from these conversations, I creating an extensive customer journey map and finding some pain points and opportunities. Next, I proceeded to look at existing platforms that perform similar functions to create a competitive positioning matrix and align my opportunities where the competition currently isn't performing. This helped me to nail down a persona and define the criteria and guidewords which would steer my visual design system.</p>
                         </div>
                         <div class="w-full mt-4 flex flex-row justify-end">
                             <div class="w-fit rounded-md p-4 space-x-4 bg-fontfacingblue hover:bg-white text-white hover:text-fontfacingblue flex flex-row cursor-pointer" id="ff-research-readmore">
@@ -181,27 +185,13 @@
                 </div>
             </div>
 
-            <!-- IMAGE BREAK -->
-            <div class="grid grid-cols-12 mb-12 md:mb-24 -mt-20 md:-mt-32">
-                <div class="bg-white rounded-lg drop-shadow-2xl p-4 col-span-8 md:col-span-6 col-start-3 md:col-start-1">
-                    <img src="./Assets/Images/FontFacing/Frame 2.png" alt="A comparison of capital A's generated by ChatGPT and Adobe Illustrator's Beta AI">
-                    <p class="text-xs text-black/20">Left: a capital A made of XML/SVG markup generated by ChatGPT; right: a capital A generated in Adobe Illustrator via Adobe's beta AI generation.</p>
-                </div>
-            </div>
-
-            <!-- INSIGHTS 1 -->
+            <!-- PAIN POINTS & Opportunities -->
             <div class="mb-48 mt-24 col-span-12 grid grid-cols-12 gap-4 font-light">
-                <h2 class="col-span-12 text-center text-4xl text-fontfacingblue">Starting Insights</h2>
+                <h2 class="col-span-12 text-center text-4xl text-fontfacingblue">Pain Points</h2>
 
-                <!-- ROW 1 -->
-                <div class="col-span-8 col-start-1 md:col-span-6 md:col-start-1 lg:col-span-4 lg:col-start-1 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">An A.I. system can’t become an expert on everything, but can be trained for a specific medium or on a specific topic, even combining areas.</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-5 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">Most of the thought for A.I. systems seems to be from the viewpoint of <span class="italic">“what can A.I. do for you”</span> rather than <span class="italic">“what can you do with A.I.”</span> and because of that, they usually default to pretty basic forms of input, like a text box, because the time and effort was put into training the system, not into how we interact with it.</div>
-                <div class="col-span-8 col-start-5 md:col-span-6 md:col-start-7 lg:col-span-4 lg:col-start-9 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">Training comes in many forms but will produce inconsistent results by itself. For the AI system to work, it will also require reinforcement and supervision.</div>
-
-                <!-- ROW 2 -->
-                <div class="col-span-8 col-start-1 md:col-span-6 md:col-start-1 lg:col-span-4 lg:col-start-1 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">A.I. platforms can’t separate outliers unless specifically trained to do so. Therefore, every word/pixel/megabyte used in training needs to be carefully selected and vetted.</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-5 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">Because we don’t know what’s happening, what the system is doing, and how our input is being interpreted AI feels like magic when the system gives results.</div>
-                <div class="col-span-8 col-start-5 md:col-span-6 md:col-start-7 lg:col-span-4 lg:col-start-9 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">Machine learning is exceedingly good at working with patterns but, due to the previous insights, everything you put into the training will be part of the resulting pattern.</div>
+                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-1 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">PLACEHOLDER</div>
+                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-5 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">PLACEHOLDER</div>
+                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-9 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">PLACEHOLDER</div>
             </div>
 
             <!-- CONTENT SECTION -->
@@ -345,7 +335,7 @@
     <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-research-bg">
         <div class="w-12/12 md:w-9/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-research-modal">
             <div class="flex flex-row justify-between h-fit">
-                <h1 class="text-2xl mb-4">Research & Background</h1>
+                <h1 class="text-2xl mb-4">Primary Research</h1>
                 <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-research-close">
                     <span class="material-symbols-rounded">
                         close
@@ -354,23 +344,43 @@
             </div>
             <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
                 <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
-                    <p>I started this project by researching how training models are made and making a couple myself. By using the available tools at RunwayML I was able to train image generating models in order to see, firsthand, how an AI system analyzes the material its given and, thereafter, what it can produce.</p>
-                    <p>After also doing some research into AI platforms working with vector graphics, I solidified the concept I had in mind: a design and editing platform working with SVGs, supported and driven by AI to make it faster and easier for designers to build out the entirety of a typeface.</p>
+                    <p>Of course, going into this project I only had my own tattoo experiences to go off of so I started the process by formally interviewing people with tattoos. I also had several informal conversations with some additional people regarding their tattoo experiences.</p>
+                    <p>After synthesizing the information from these conversations, I creating an extensive customer journey map and finding some pain points and opportunities. Next, I proceeded to look at existing platforms that perform similar functions to create a competitive positioning matrix and align my opportunities where the competition currently isn't performing. This helped me to nail down a persona and define the criteria and guidewords which would steer my visual design system.</p>
                 </div>
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
-                    <p class="col-span-8">When I started this project, I had to create a training model to understand how AI analyzes the content that it's trained on in order to form the training model that will then be used.</p>
+                    <p class="col-span-8">My experiences getting tattoos have been varied. One experience was very in-depth and communicative, I felt taken care of but, at the same time, didn't see my artwork until the day I showed up for my appointment. However, my first tattoo went quickly: I walked in, showed the artist my reference photo, he gave me the tattoo (painfully), and I was out in about half an hour; I found out later that he'd done the tattooing part poorly. Another experience was also poor: the artist was charismatic but his tattoo abilities were lackluster and I ended up having to get the tattoo covered. My other tattoos have fallen somewhere in between where the tattoos came out good but the process felt like a business transaction: impersonal.</p>
                     <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
-                    <p class="col-span-8">At the time, I had hundreds of photos of beers that I've taken over a few years just sitting around waiting to be used for something, so I made the first training model using around 1,000 of these photos. Some contain things in the background, like a bar, living room, and even people, and some are on a white background. Some show one, two, or three cans or bottles in various sizes. Most of them show a glass that's been filled with beer, and some show multiple glasses that have been filled with beer.</p>
+                    <p class="col-span-8">Of course, I would need some more information than simply my own experiences. I wanted to speak with a younger audience: 18-35. I also decided I would speak with both women and men, and felt that if I could speak with people with many tattoos, people with only one or two, and preferably people with relatively recent tattoo experiences then the forthcoming conversations would be much more informative.</p>
                     <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
-                    <p class="col-span-8">This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at any of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model. I gathered 30 beers (all 16-ounce cans) and took new photos with each can against a white backdrop, although I staggered the angles and composition of the photos. This training model was different, but provided much more insight as to how the system was analyzing the given photos.</p>
+                    <p class="col-span-8">My interviews gave me a lot of usable information. First, I was able to <span class="font-bold">confirm</span> some of my assumptions:</p>
+                    <ul>
+                        <li>The “problems” typically end once the tattooing process starts (with obvious exceptions)</li>
+                        <li>The experience overall is very personal, from the meaningfulness of the artwork to the aftercare routine which follows</li>
+                        <li>Approaching an artist for the first time is a source of anxiety</li>
+                        <li>Too many different websites</li>
+                    </ul>
+                    <p class="col-span-8">I also quickly found some common <span class="font-bold">paint points</span> across all of my interviews:</p>
+                    <ul>
+                        <li>Lack of timely communication</li>
+                        <li>Too much information about tattooing from different sources</li>
+                        <li>Not seeing artwork until late in the process</li>
+                        <li>Artwork isn’t always as expected</li>
+                    </ul>
+                    <p class="col-span-8">Finally, some of my <span class="font-bold">new discovery</span> included:</p>
+                    <ul>
+                        <li>The most important parts of getting a tattoo are: an artist who communicates, answers questions, asks questions, and welcomes feedback, feeling comfortable with the artist and in the space in which they work</li>
+                        <li>The first tattoo is the most important, a “make or break” situation</li>
+                        <li>Being tattooed is very meditative; although there may be pain it isn’t necessarily a painful experience</li>
+                        <li>Very rarely do people leave a review or go out of their way to comment on their experience</li>
+                        <li>There’s always an understanding that quality tattoos come with a certain cost so this isn’t usually a concern</li>
+                    </ul>
                     <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
-                    <p class="col-span-8">For the hands-on research, I made one last model with very simple images, 30 different versions of a capital 'A', each one black on a white background. The output from this (seen to the right) may seem like a poor result but, to the contrary, I believe that it serves as concrete proof that I'm thinking about the concept correctly: an AI training model is perfectly capable of finding patterns, consistent details, and unique attributes and then recreating those aspects... as long as it's given an appropriate context.</p>
+                    <p class="col-span-8">Based on these interviews and other informal conversations I started to specify the customer journey map to get a better idea of the overall process of getting a tattoo and the specific steps that a customer might go through.</p>
                     <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
-                    <p class="col-span-8">I did additional research regarding AI systems working on vector images, as well as the current prevalence of AI in the creation, recreation, and/or expansion of typographic systems. There's currently a lot of work put into text (copy) generation, but not a lot of work put into typeface or letterform generation.</p>
                     <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
-                    <p class="col-span-8">In particular, I was inspired by the work of Erik Bern, Jean Böhm, and Måns Grebäck. These 3 designers (writing about their experiments in 2016, 2020, and 2022, respectively) have all worked in the space of typeface generation. Erik Bern used 50,000 fonts to train a neural network; Jean Böhm advanced and refined AI abilities to work with SVG paths and anchor points; Måns Grebäck experimented with machine learning in the use of Stable Diffusion to generate new or stylistically similar typefaces to those he provided. All of their work served as proof that my concept could work, I just had to design an interface for it.</p>
                     <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
+                    <p class="col-span-8">I'm not going to explain everything in these images as there's a lot going on, but you're welcome to inspect the journey maps at your leisure. (Each one also includes some alt text if you'd like to read a more thorough examination of them.) The journey mapping helped to inform and contextualize the information from the interview synthesis and I was able to specify some opportunities that I wanted to work on for the prototype.</p>
                 </div>
             </div>
         </div>
