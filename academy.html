@@ -31,6 +31,7 @@
                         tattooblue: '#4285f4',
                         tattooalert: '#ff6f6f',
                         academyblue: '#2e95e0',
+                        academygold: '#b89848',
                     }
                 }
             }
@@ -40,7 +41,7 @@
     <!-- Page Title -->
     <title>Max is Wright — Academy Kiosk</title>
 </head>
-<body class="bg-tattooblue">
+<body class="bg-academyblue/50">
 
     <!-- NAVIGATION -->
     <div class="w-full mx-auto fixed top-0 right-0 z-[90]">
@@ -111,9 +112,21 @@
     <main class="container mx-auto z-20">
 
         <!-- TITLE + HERO -->
+
+        <!-- TITLE -->
+        <div class="w-full text-center">
+            <h1 class="mt-48 text-6xl text-white">Data Visualization Through Gamification</h1>
+        </div>
+
+
         <div class="w-full text-left grid grid-cols-12 h-screen relative">
-            <img src="./Assets/Images/Tattooo/Logo.svg" alt="" class="absolute z-30 drop-shadow-lg top-1/4 md:top-1/2 -translate-y-1/2 p-4 left-0 w-full md:w-9/12">
-            <img src="./Assets/Images/Tattooo/Tattooo_Home.png" alt="" class="w-64 mx-0 md:mx-4 self-center absolute top-1/2 right-1/2 md:right-0 translate-x-1/2 md:translate-x-0 lg:-translate-x-1/2 -translate-y-1/4">
+            <div class="absolute z-30 top-1/4 md:top-1/2 -translate-y-1/2 p-4 left-0 w-72 h-72 p-8 bg-white rounded-full flex flex-col justify-center">
+                <img src="./Assets/Images/Academy/Academy_of_Motion_Picture_Arts_and_Sciences_logo.svg" alt="The logo of the Academy of Motion Picture Arts and Sciences, showing an Oscar statuette silhouetted against the initial A." class="h-full">
+                <p class="text-center text-[8px] text-black/20 mt-2">Logo is property of the Academy of Motion Picture Arts <br>and Sciences, to whom I am not affiliated.</p>
+            </div>
+            <div class="w-96 mx-0 md:mx-4 self-center absolute top-1/2 right-0 translate-x-1/2 md:translate-x-0 lg:-translate-x-1/2 -translate-y-1/4">
+                <img src="./Assets/Images/Academy/KioskHome.png" alt="">
+            </div>
         </div>
 
         <!-- BODY CONTENT -->
@@ -130,12 +143,12 @@
 
             <!-- PROJECT DETAILS -->
             <div class="mx-auto mb-24 md:mb-36 w-fit md:w-full flex flex-row flex-wrap justify-center md:justify-start items-center bg-white rounded-md md:rounded-full px-4 py-2 space-y-2 md:space-y-0 space-x-2">
-                <h1 class="text-2xl text-tattooalert w-full md:w-fit text-center md:text-left">Details</h1>
-                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">Physical Kiosk Design</span>
-                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">Data Visualization</span>
-                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">2023</span>
-                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">7 Weeks</span>
-                <span class="px-3 py-2 rounded-full bg-tattooblue text-white text-sm">Solo Project</span>
+                <h1 class="text-2xl text-academygold w-full md:w-fit text-center md:text-left">Details</h1>
+                <span class="px-3 py-2 rounded-full bg-academyblue text-white text-sm">Touchscreen Kiosk Design</span>
+                <span class="px-3 py-2 rounded-full bg-academyblue text-white text-sm">Data Visualization</span>
+                <span class="px-3 py-2 rounded-full bg-academyblue text-white text-sm">2023</span>
+                <span class="px-3 py-2 rounded-full bg-academyblue text-white text-sm">7 Weeks</span>
+                <span class="px-3 py-2 rounded-full bg-academyblue text-white text-sm">Solo Project</span>
             </div>
 
             <!-- PROBLEM / MISSION STATEMENT -->
@@ -151,8 +164,8 @@
                     <div class="bg-white/50 backdrop-blur-md text-black p-4 rounded-md drop-shadow-2xl">
                         <h1 class="text-2xl mb-4">The Data</h1>
                         <div class="text-sm space-y-4">
-                            <p>Of course, going into this project I only had my own tattoo experiences to go off of so I started the process by formally interviewing people with tattoos. I also had several informal conversations with some additional people regarding their tattoo experiences.</p>
-                            <p>This project needed to move pretty quickly, so I only had one week to get interviews done. Unfortunately, that means that I could only get 3 interviews. I would have preferred at least twice that many, and if the scope of the project had allowed I would have also interviewed tattoo artists. That's definitely a major fault, here. Without the input of artists themselves, this project is largely speculative as it can only account for the customer's perspective.</p>
+                            <p>I started by collecting data about the nominees for Best Picture for the 95th Academy Awards (the event happening in 2023) since they're supposed to be the best movies of the year. I started with baseline information in case it was relevant later, like the duration, budget, genre, and director. Then I got into the really tedious part: collecting the various ratings from different ratings services: IMDB, Rotten Tomatoes, and Metacritic. Each one uses a different rating system so I felt like I needed to aggregate them all. (A little ironic, I know, since Metacritic claims to be a rating aggregator.)</p>
+                            <p>Once I had the data for the 2023 nominees I started to move back in time. You can't find patterns if you only have one, incomplete dataset. Before I knew it, I had 10 years-worth of data for Best Picture nominees and winners and started to notice some interesting factoids, even if I couldn't discern a pattern. For instance, it's rare for movies heavily preferred by general audiences, compared to critics, to even be nominated but the most notable such discrepancy, "Bohemian Rhapsody" (which was preferred by general audiences to critics with a difference of 25.33 out of 100 points), happened to be nominated in the same year that a similarly general audience-preferred film, "Green Book" (which was preferred by general audiences by 13 points), happened to win Best Picture. "Bohemian Rhapsody", in fact, has such a low overall aggregated rating that the only movie with a lower aggregated rating over the last 10 years, "Don't Look Up", only scores 4 points (out of 100) lower.</p>
                         </div>
                         <div class="w-full mt-4 flex flex-row justify-end">
                             <div class="w-fit rounded-md p-4 space-x-4 bg-tattooblue hover:bg-white text-white hover:text-tattooblue flex flex-row cursor-pointer" id="ff-research-readmore">
@@ -164,25 +177,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <!-- PAIN POINTS & OPPORTUNITIES -->
-            <div class="mb-24 mt-24 col-span-12 grid grid-cols-12 gap-4 font-light">
-                <h2 class="col-span-12 text-center text-4xl text-white"><span class="bg-white text-tattooalert py-2 px-4 rounded-full mr-4">1</span>Pain Points</h2>
-
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-1 text-center bg-white text-black p-4 rounded-md h-fit">Lack of strong communication</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-4 text-center bg-white text-black p-4 rounded-md h-fit">Too much information about tattooing from too many different sources</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-7 text-center bg-white text-black p-4 rounded-md h-fit">Not seeing artwork until late in the process, often not until you show up for the tattoo</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-10 text-center bg-white text-black p-4 rounded-md h-fit">The artwork isn’t always what was expected</div>
-            </div>
-
-            <div class="mb-48 mt-12 col-span-12 grid grid-cols-12 gap-4 font-light">
-                <h2 class="col-span-12 text-center text-4xl text-white"><span class="bg-white text-tattooalert py-2 px-4 rounded-full mr-4">2</span>Opportunities</h2>
-
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-1 text-center bg-white text-black p-4 rounded-md h-fit">Improve and streamline the communication process</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-4 text-center bg-white text-black p-4 rounded-md h-fit">Hold customers and artists responsible for the speed of their communication</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-7 text-center bg-white text-black p-4 rounded-md h-fit">Help customers see the artwork early and the artists to get feedback</div>
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-10 text-center bg-white text-black p-4 rounded-md h-fit">Provide helpful information and resources in a centralized platform</div>
             </div>
 
             <!-- CONTENT SECTION -->
@@ -300,7 +294,7 @@
     <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-research-bg">
         <div class="w-12/12 md:w-9/12 xl:w-7/12 2xl:w-5/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-research-modal">
             <div class="flex flex-row justify-between h-fit">
-                <h1 class="text-2xl mb-4">Primary Research</h1>
+                <h1 class="text-2xl mb-4">The Data</h1>
                 <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-research-close">
                     <span class="material-symbols-rounded">
                         close
@@ -309,41 +303,35 @@
             </div>
             <div class="w-full h-full pb-8 overflow-auto rounded bg-black/5 p-4 grid gap-4 grid-cols-1 lg:grid-cols-12">
                 <div class="text-sm space-y-4 opacity-50 col-span-12 lg:col-span-8">
-                    <p>Of course, going into this project I only had my own tattoo experiences to go off of so I started the process by formally interviewing people with tattoos. I also had several informal conversations with some additional people regarding their tattoo experiences.</p>
-                    <p>This project needed to move pretty quickly, so I only had one week to get interviews done. Unfortunately, that means that I could only get 3 interviews. I would have preferred at least twice that many, and if the scope of the project had allowed I would have also interviewed tattoo artists. That's definitely a major fault, here. Without the input of artists themselves, this project is largely speculative as it can only account for the customer's perspective.</p>
+                    <p>I started by collecting data about the nominees for Best Picture for the 95th Academy Awards (the event happening in 2023) since they're supposed to be the best movies of the year. I started with baseline information in case it was relevant later, like the duration, budget, genre, and director. Then I got into the really tedious part: collecting the various ratings from different ratings services: IMDB, Rotten Tomatoes, and Metacritic. Each one uses a different rating system so I felt like I needed to aggregate them all. (A little ironic, I know, since Metacritic claims to be a rating aggregator.)</p>
+                    <p>Once I had the data for the 2023 nominees I started to move back in time. You can't find patterns if you only have one, incomplete dataset. Before I knew it, I had 10 years-worth of data for Best Picture nominees and winners and started to notice some interesting factoids, even if I couldn't discern a pattern. For instance, it's rare for movies heavily preferred by general audiences, compared to critics, to even be nominated but the most notable such discrepancy, "Bohemian Rhapsody" (which was preferred by general audiences to critics with a difference of 25.33 out of 100 points), happened to be nominated in the same year that a similarly general audience-preferred film, "Green Book" (which was preferred by general audiences by 13 points), happened to win Best Picture. "Bohemian Rhapsody", in fact, has such a low overall aggregated rating that the only movie with a lower aggregated rating over the last 10 years, "Don't Look Up", only scores 4 points (out of 100) lower.</p>
                 </div>
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
-                    <p class="col-span-8">My experiences getting tattoos have been varied. One experience was very in-depth and communicative, I felt taken care of but, at the same time, didn't see my artwork until the day I showed up for my appointment. However, my first tattoo went quickly: I walked in, showed the artist my reference photo, he gave me the tattoo (painfully), and I was out in about half an hour; I found out later that he'd done the tattooing part poorly. Another experience was also poor: the artist was charismatic but his tattoo abilities were lackluster and I ended up having to get the tattoo covered. My other tattoos have fallen somewhere in between where the tattoos came out good but the process felt like a business transaction: impersonal.</p>
-                    <p class="col-span-8">Of course, I would need some more information than simply my own experiences. I wanted to speak with a younger audience: 18-35. I also decided I would speak with both women and men, and felt that if I could speak with people with many tattoos, people with only one or two, and preferably people with relatively recent tattoo experiences then the forthcoming conversations would be much more informative.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 my-4">
-                        <div class="w-fit flex flex-row space-x-4">
-                            <img src="./Assets/Images/Tattooo/intGuide1.png" alt="Page 1 of an interview guide used for this project" class="rounded-md w-1/2 mb-16">
-                            <img src="./Assets/Images/Tattooo/intGuide2.png" alt="Page 2 of an interview guide used for this project" class="rounded-md w-1/2 mt-16">
-                        </div>
-                    </div>
-                    <p class="col-span-8">My interviews gave me a lot of usable information. First, I was able to <span class="font-bold">confirm</span> some of my assumptions:</p>
+                    <p class="col-span-8">When I started collecting data for the 95th Academy Awards, the winner hadn't been decided yet, which made the collection of data for previous years so interesting. The 10 Best Picture nominees for 2023 are as follows:</p>
                     <ul class="col-span-8 list-inside list-disc pl-4">
-                        <li>The “problems” typically end once the tattooing process starts (with obvious exceptions)</li>
-                        <li>The experience overall is very personal, from the meaningfulness of the artwork to the aftercare routine which follows</li>
-                        <li>Approaching an artist for the first time is a source of anxiety</li>
-                        <li>Too many different websites</li>
+                        <li>All Quiet on the Western Front</li>
+                        <li>Avatar: The Way of Water</li>
+                        <li>The Banshees of Inisherin</li>
+                        <li>Elvis</li>
+                        <li>Everything Everywhere All at Once</li>
+                        <li>The Fabelmans</li>
+                        <li>Tár</li>
+                        <li>Top Gun: Maverick</li>
+                        <li>Triangle of Sadness</li>
+                        <li>Women Talking</li>
                     </ul>
-                    <p class="col-span-8">I also quickly found some common <span class="font-bold">paint points</span> across all of my interviews:</p>
+                    <p class="col-span-8">I wasn't expecting to get so sucked into the data, but there's a kind of peace in the numbers. Once the data's there, you can start trying to find meaning. Now that the award's been given I know who's won, but at the time I was collecting this data it was new and exciting to try and figure out a pattern and guess who'd win. While collecting the data, I was struck by how differently each platform portrays their ratings.</p>
                     <ul class="col-span-8 list-inside list-disc pl-4">
-                        <li>Lack of timely communication</li>
-                        <li>Too much information about tattooing from different sources</li>
-                        <li>Not seeing artwork until late in the process</li>
-                        <li>Artwork isn’t always as expected</li>
+                        <li>IMDB uses a score out of 10.0</li>
+                        <li>Rotten Tomatoes' verified critics are rated as a percentage, plus an average out of 10.0</li>
+                        <li>Rotten Tomatoes' users are rated as a percentage as well, plus an average star rating out of 5.0</li>
+                        <li>Metacritic aggregates critics' reviews into a score out of 100</li>
+                        <li>Metacritic user scores are averaged out of 10.0</li>
                     </ul>
-                    <p class="col-span-8">Finally, some of my <span class="font-bold">new discovery</span> included:</p>
-                    <ul class="col-span-8 list-inside list-disc pl-4">
-                        <li>The most important parts of getting a tattoo are: an artist who communicates, answers questions, asks questions, and welcomes feedback, feeling comfortable with the artist and in the space in which they work</li>
-                        <li>The first tattoo is the most important, a “make or break” situation</li>
-                        <li>Being tattooed is very meditative; although there may be pain it isn’t necessarily a painful experience</li>
-                        <li>Very rarely do people leave a review or go out of their way to comment on their experience</li>
-                        <li>There’s always an understanding that quality tattoos come with a certain cost so this isn’t usually a concern</li>
-                    </ul>
+                    <p class="col-span-8">With all of these scores, there's 7 numbers to keep an eye one. That makes it confusing, so I realized I'd need to make it simpler. The easiest way to normalize all of these systems is to get them all to a score out of 100. Therefore, a 7.6/10 on IMDB becomes a 76/100, a Rotten Tomatoes critic percentage of 84% with an average score of 7.9/10 becomes an 84/100 and a 79/100, respectively, etc.</p>
+                    <p class="col-span-8">With normalized scores, I can easily aggregate them all. Adding them together and dividing by 7 gives a nominee a single, aggregated score which makes it easier to compare. Additionally, if I aggregate the critic scores and the general audience scores separately I can check for the difference between them, to see if the movie was preferred by critics or general audiences and how heavily it was preferred.</p>
+                    <p class="col-span-8">To round out my data I got the total number of Oscar nominations, including the Best Picture nomination, and the number they'd won. I also got the number of accolade nominations, in total, and the number of wins. After looking at all of this data, in the process of collecting it, I started to see some interesting patterns about the movies, but nothing like an idea of how to guess a winner.</p>
                 </div>
             </div>
         </div>
