@@ -164,6 +164,12 @@ h3, h4, h5, h6 {
     background-repeat: no-repeat;
 }
 
+.mask-transparent {
+    -webkit-mask-image: linear-gradient(to bottom, black 25%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 25%, transparent 100%);
+  }
+  
+
 /* MODALS */
 /* MODALS */
 /* MODALS */
