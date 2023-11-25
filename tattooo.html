@@ -30,6 +30,9 @@
                         fontfacingblue: '#122f3c',
                         tattooblue: '#4285f4',
                         tattooalert: '#ff6f6f',
+                        academyblue: '#2e95e0',
+                        academygold: '#b89848',
+                        neutralbg: '#d9d9d9',
                     }
                 }
             }
@@ -39,7 +42,7 @@
     <!-- Page Title -->
     <title>Max is Wright — Tattooo</title>
 </head>
-<body class="bg-tattooblue">
+<body class="bg-neutralbg">
 
     <!-- NAVIGATION -->
     <div class="w-full mx-auto fixed top-0 right-0 z-[90]">
@@ -111,9 +114,9 @@
 
         <!-- TITLE + HERO -->
         <div class="w-full text-left grid grid-cols-12 h-screen relative">
-            <h1 class="absolute left-1/2 -translate-x-1/2 text-center w-full mt-48 text-3xl sm:text-4xl md:text-6xl text-white">Crafting a Seamless Tattoo Experience for Clients and Artists</h1>
-            <img src="./Assets/Images/Tattooo/Tattooo_Home.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-64 mt-16 mx-0 md:mx-4 self-center absolute top-1/2 right-1/2 md:left-0 translate-x-1/2 md:translate-x-0 lg:translate-x-1/2 2xl:translate-x-full -translate-y-1/4 md:-translate-y-16 lg:-translate-y-24 2xl:-translate-y-32">
-            <img src="./Assets/Images/Tattooo/Tattooo_Home.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-64 mt-16 mx-0 md:mx-4 self-center absolute top-1/2 right-1/2 hidden md:block md:right-0 translate-x-1/2 md:translate-x-0 lg:-translate-x-1/2 2xl:-translate-x-full -translate-y-1/4 md:-translate-y-16 lg:-translate-y-24 2xl:-translate-y-32">
+            <h1 class="absolute left-1/2 -translate-x-1/2 top-1/4 -translate-y-1/2 text-center w-full text-3xl sm:text-4xl md:text-6xl text-tattooblue">Crafting a Seamless Tattoo Experience for Clients and Artists</h1>
+            <img src="./Assets/Images/Tattooo/Tattooo_Home.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-64 mx-0 md:mx-4 self-center absolute right-1/2 top-1/4 md:left-0 translate-x-1/2 md:translate-x-0 lg:translate-x-1/2 2xl:translate-x-full translate-y-16 md:translate-y-24 xl:translate-y-16">
+            <img src="./Assets/Images/Tattooo/Tattooo_Ideas.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-64 mx-0 md:mx-4 self-center absolute top-1/4 right-1/2 hidden md:block md:right-0 translate-x-1/2 md:translate-x-0 lg:-translate-x-1/2 2xl:-translate-x-full translate-y-16 md:translate-y-24 xl:translate-y-16">
         </div>
 
         <!-- BODY CONTENT -->
@@ -139,15 +142,16 @@
             </div>
 
             <!-- PROBLEM / MISSION STATEMENT -->
-            <div class="mb-48 mt-24 col-span-12 grid grid-cols-12 gap-4">
-                <h2 class="col-span-12 text-center text-4xl text-white">What's the problem?</h2>
-
-                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-5 bg-white text-tattooblue p-4 rounded-md h-fit">Choosing to get a tattoo can be deeply personal and complex. Simply finding a tattoo artist can be incredibly difficult; there are so many different touchpoints and places to look, and reaching out to an artist can be intimidating. Many begin a collaborative process with an artist but are unsure of how to express their vision or needs, and its all too common to show up for your tattoo session without having seen the artwork beforehand.</div>
+            <div class="mb-48 lg:mb-0 mt-8 col-span-12 grid grid-cols-12 gap-4">
+                <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-4 lg:col-start-1">
+                    <h2 class="text-center text-4xl text-tattooblue mb-4">What's the problem?</h2>
+                    <p class="bg-white text-tattooblue p-4 rounded-md h-fit">Choosing to get a tattoo can be deeply personal and complex. Simply finding a tattoo artist can be incredibly difficult; there are so many different touchpoints and places to look, and reaching out to an artist can be intimidating. Many begin a collaborative process with an artist but are unsure of how to express their vision or needs, and its all too common to show up for your tattoo session without having seen the artwork beforehand.</p>
+                </div>
             </div>
 
             <!-- CONTENT SECTION -->
-            <div class="mb-8 md:mb-24 grid grid-cols-12 gap-4">
-                <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-4 xl:col-span-6 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 z-40">
+            <div class="mt-0 lg:-mt-48 mb-8 md:mb-24 grid grid-cols-12 gap-4">
+                <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-7 xl:col-span-6 xl:col-start-7 2xl:col-span-4 2xl:col-start-9 z-40">
                     <div class="bg-white/50 backdrop-blur-md text-black p-4 rounded-md drop-shadow-2xl">
                         <h1 class="text-2xl mb-4 text-center">Interviews</h1>
                         <div class="w-full flex flex-row justify-between my-4">
@@ -190,11 +194,16 @@
                 <div class="col-span-8 col-start-3 md:col-span-6 md:col-start-4 lg:col-span-3 lg:col-start-10 text-center bg-white text-black p-4 rounded-md h-fit">Provide helpful information and resources in a centralized platform</div>
             </div>
 
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 gap-4 -mt-12 mb-4 md:-mb-16 lg:-mb-32 xl:-mb-48">
+                <img src="./Assets/Images/Tattooo/Who/5.png" alt="A persona representing the synthesis of the previously done research. This persona is a 22-year-old named Jenny and she has a tumultuous relationship with her parents which, in part, motivates her." class="col-span-12 col-start-1 md:col-span-10 lg:col-span-8 rounded-md">
+            </div>
+
             <!-- CONTENT SECTION -->
             <div class="mb-8 md:mb-24 grid grid-cols-12 gap-4">
-                <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-4 xl:col-span-6 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 z-40">
+                <div class="col-span-10 col-start-2 md:col-start-4 lg:col-span-6 lg:col-start-7 xl:col-span-6 xl:col-start-7 2xl:col-span-4 2xl:col-start-9 z-40">
                     <div class="bg-white/50 backdrop-blur-md text-black p-4 rounded-md drop-shadow-2xl">
-                        <h1 class="text-2xl mb-4">Who and What I'm Designing For</h1>
+                        <h1 class="text-2xl mb-4">Who I'm Designing For</h1>
                         <div class="text-sm space-y-4">
                             <p>After my interviews, and synthesizing the information, I was able to really nail down the type of user I should have in mind while designing. I made a series of journey maps then looked at the different positions of social media and competitive platforms within the space. Finally, I was able to build a persona as a stand-in for my compiled information.</p>
                             <p>Next, I built out the expected information architecture and fleshed out the user flows for tasks I felt would be integral to the customer experience. This was an interesting exercise since I'd previously ideated on how notifications could lead to interactions, but I'd never used them as an expected (or hoped-for, at least) starting point for a user flow.</p>
@@ -211,9 +220,26 @@
                 </div>
             </div>
 
+            <!-- IA -->
+            <div class="mb-24 col-span-12 grid grid-cols-12 gap-4 font-light">
+                <h2 class="col-span-12 text-center text-4xl text-tattooblue px-8 sm:px-0">Information Architecture & Example User Flows</h2>
+
+                <div class="col-span-12 col-start-1 md:col-span-10 md:col-start-2 flex justify-center">
+                    <img src="./Assets/Images/Tattooo/Sitemap.png" alt="A large sitemap showing the information architecture of the mobile app.">
+                </div>
+
+                <div class="col-span-12 col-start-1 md:col-span-6 md:col-start-1 flex justify-center">
+                    <img src="./Assets/Images/Tattooo/Flow1.png" alt="A large diagram showing the expected flow that a user will take through the sitemap to accomplish a certain task.">
+                </div>
+
+                <div class="col-span-12 col-start-1 md:col-span-6 md:col-start-7 flex justify-center">
+                    <img src="./Assets/Images/Tattooo/Flow2.png" alt="A large diagram showing the expected flow that a user will take through the sitemap to accomplish a certain task.">
+                </div>
+            </div>
+
             <!-- CONTENT SECTION -->
             <div class="mb-8 md:mb-24 grid grid-cols-12 gap-4">
-                <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-4 xl:col-span-6 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 z-40">
+                <div class="col-span-10 col-start-2 md:col-start-1 lg:col-span-6 lg:col-start-1 xl:col-span-6 xl:col-start-1 2xl:col-span-4 2xl:col-start-1 z-40">
                     <div class="bg-white/50 backdrop-blur-md text-black p-4 rounded-md drop-shadow-2xl">
                         <h1 class="text-2xl mb-4">Branding</h1>
                         <div class="text-sm space-y-4">
@@ -232,8 +258,18 @@
                 </div>
             </div>
 
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 gap-4 mt-0 md:-mt-32 lg:-mt-48 mb-8">
+                <img src="./Assets/Images/Tattooo/Branding/Logotype.svg" alt="The final logotype with examples showing its use in different contexts, such as icons." class="col-span-12 col-start-1 md:col-span-10 md:col-start-3 lg:col-span-8 lg:col-start-5 rounded-md">
+            </div>
+
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 gap-4 -mt-8 lg:-mt-12 mb-4 md:-mb-16">
+                <img src="./Assets/Images/Tattooo/Tattooo_Tabs.png" alt="High fidelity screens of the 4, main pages as accessed by the tab bar" class="col-span-12 col-start-1 md:col-span-10 lg:col-span-8 rounded-md">
+            </div>
+
             <!-- CONTENT SECTION -->
-            <div class="mb-8 md:mb-24 grid grid-cols-12 gap-4">
+            <div class="grid grid-cols-12 gap-4">
                 <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-4 xl:col-span-6 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 z-40">
                     <div class="bg-white/50 backdrop-blur-md text-black p-4 rounded-md drop-shadow-2xl">
                         <h1 class="text-2xl mb-4">Visual Design Language</h1>
@@ -253,13 +289,35 @@
                 </div>
             </div>
 
-            <!-- FINAL THOUGHTS -->
-            <div class="mb-48 mt-24 col-span-12 grid grid-cols-12 gap-4">
-                <h2 class="col-span-12 text-center text-4xl text-white">Some Parting Thoughts</h2>
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 gap-4 -mt-12 mb-8 md:mb-24">
+                <img src="./Assets/Images/Tattooo/Tattooo_Posters.png" alt="A series of posters that takes the branding elements and reuses them to market the app with the slogan, 'Bring your ideas to life'." class="col-span-12 col-start-1 md:col-span-10 md:col-start-3 lg:col-span-8 lg:col-start-5 rounded-md">
+            </div>
 
-                <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-4 xl:col-span-6 xl:col-start-4 2xl:col-span-4 2xl:col-start-5 bg-white text-tattooblue p-4 rounded-md h-fit space-y-8">
-                    <p>Every graphic designer has to learn logo design. It's never been something I've been particularly great at, but I like typography so I'm pretty good when it comes to logotypes. Making a brand symbol is often something that escapes me. This was a nice chance to spend several weeks focused on the topic. There were several times I thought a certain graphic would work great but in combination with the name, or any name, it would suddenly fall apart. I would work so closely with the shapes and images that I would be convinced I'd made a good brand symbol, only to find out that it wasn't working for many reasons I couldn't see. This was a nice reminder that I need to take a step back from my work.</p>
-                    <p>You would think that in interaction design you get to spend a lot of time on microinteractions and that can be true, sometimes. However, a lot of the time you have to focus on the experience as a whole rather than the intimate details of every microinteraction. The tattoo idea form isn't quite a microinteraction in the way that a button's click animation is, since each page lasts for as long as the user needs it to, but I like to think of it as microinteraction, as a microcosm to the macrocosm of the overall platform. The difference between my first form version and the final version is extreme, and I like to think that where I ended up is a much more thoughtful way to present the form the users.</p>
+            <!-- SCENARIO VIDEO -->
+            <div class="col-span-12 grid grid-cols-12 gap-4">
+                <div class="bg-video bg-white rounded-lg overflow-hidden col-span-12 col-start-1 sm:col-span-10 sm:col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 xl:col-span-4 xl:col-start-5">
+                    <video class="bg-video__content" title="User scenario showing how a user would go through various flows to accomplish tasks" controls loop>
+                        <source src="Assets/Images/Tattooo/TattoooScenarioFinal.mp4" type="video/mp4">
+                    </video>
+                    <div class="p-4">
+                        <p class="text-xs text-black/20">User scenario video showing how the persona, Jenny, would use the Tatt.ooo app to accomplish tasks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FINAL THOUGHTS -->
+            <div class="mb-0 mt-24 col-span-12 grid grid-cols-12 gap-4">
+                <div class="col-span-12 col-start-1 lg:col-span-6 xl:col-span-6 2xl:col-span-8">
+                    <iframe class="w-full h-screen lg:h-full rounded-md" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FLa9a3mCGaD9Lbfmxg5a0k0%2FHomework%3Fpage-id%3D562%253A1467%26type%3Ddesign%26node-id%3D562-1468%26viewport%3D62%252C-61%252C0.11%26t%3Dy9WsJk2EQELK1nYO-1%26scaling%3Dscale-down%26starting-point-node-id%3D562%253A1468%26mode%3Ddesign" allowfullscreen></iframe>
+                </div>
+
+                <div class="col-span-10 col-start-2 lg:col-span-6 lg:col-start-7 xl:col-span-6 xl:col-start-7 2xl:col-span-4 2xl:col-start-9">
+                    <h2 class="text-center text-4xl text-white mb-4">Some Parting Thoughts</h2>
+                    <div class="bg-white text-tattooblue p-4 rounded-md h-fit space-y-8">
+                        <p>Every graphic designer has to learn logo design. It's never been something I've been particularly great at, but I like typography so I'm pretty good when it comes to logotypes. Making a brand symbol is often something that escapes me. This was a nice chance to spend several weeks focused on the topic. There were several times I thought a certain graphic would work great but in combination with the name, or any name, it would suddenly fall apart. I would work so closely with the shapes and images that I would be convinced I'd made a good brand symbol, only to find out that it wasn't working for many reasons I couldn't see. This was a nice reminder that I need to take a step back from my work.</p>
+                        <p>You would think that in interaction design you get to spend a lot of time on microinteractions and that can be true, sometimes. However, a lot of the time you have to focus on the experience as a whole rather than the intimate details of every microinteraction. The tattoo idea form isn't quite a microinteraction in the way that a button's click animation is, since each page lasts for as long as the user needs it to, but I like to think of it as microinteraction, as a microcosm to the macrocosm of the overall platform. The difference between my first form version and the final version is extreme, and I like to think that where I ended up is a much more thoughtful way to present the form the users.</p>
+                    </div>
                 </div>
             </div>
 
@@ -358,7 +416,7 @@
     <article class="w-screen h-screen z-[100] fixed flex justify-center items-end cursor-pointer" id="ff-designing-bg">
         <div class="w-12/12 md:w-9/12 xl:w-7/12 2xl:w-5/12 h-5/6 rounded-t-lg bg-white p-4 pb-16 drop-shadow-2xl cursor-auto container" id="ff-designing-modal">
             <div class="flex flex-row justify-between h-fit">
-                <h1 class="text-2xl mb-4">Who and What I'm Designing For</h1>
+                <h1 class="text-2xl mb-4">Who I'm Designing For</h1>
                 <div class="w-8 h-8 flex justify-center items-center rounded-full hover:bg-fontfacingblue hover:text-white cursor-pointer" id="ff-designing-close">
                     <span class="material-symbols-rounded">
                         close
@@ -373,9 +431,20 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">Synthesizing research into a journey map is a pretty typical aspect within the design process. You have to be able to see and understand where and when a customer interacts with, or is likely to interact with, your product. Building out the map based on their thoughts, actions, touchpoints, emotions, etc. is all commonplace. Something I'd never done, until this project was to think about the variances in technology between the different points along the journey and then to think about opportunities based on that information as well. I built out 3 charts based on the same customer journey (one shows feelings, thoughts, and actions; one shows touchpoints, goals, pain points, and opportunities; the last one shows variances in levels of technology across the journey) so I won't explain all of them, but that last one, you can see below, is pretty interesting.</p>
-                    <p class="col-span-8">When it comes to digital product design, I think we default to this thinking where a touchpoint is a digital touchpoint, so that's the only realm we think about. But there's other levels of technology out there and they're all trying to achieve similar goals.</p>
-                    <p class="col-span-8">I had to think about the positioning opportunity as well. I'd made mention, quite a bit, about how social media was making this process more difficult in some ways and easier in other ways. The truth is, social media is a great tool for tattoo artists, but it's not a focused tool designed for things like scheduling and can it more confusing to show things like hours and rates. Tattoo-focused platforms, on the other hand, might be better at messaging and scheduling and showing hours and rates but aren't nearly as good for showcasing art or even being discovered. Based on the positioning matrix below, the solution is to bring those different positives into one place.</p>
-                    <p class="col-span-8">As the last piece of this puzzle (as with many UX puzzles) I made a persona to compile all of the most important information into one place. For the benefit of screen readers, I've recreated the persona below, so it its not exactly what I created for the project, although the text is the same.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/Tattooo/Who/1.png" alt="A customer journey map, of the process to get a tattoo, highlighting the feelings, actions, and thoughts at different stages." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/Tattooo/Who/2.png" alt="A customer journey map, of the process to get a tattoo, highlighting the touchpoints, pain points, goals, and opportunities at different stages." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/Tattooo/Who/3.png" alt="A customer journey map, of the process to get a tattoo, highlighting the different levels of technology (no technology through extremely advanced technology) at use or that could be used at different stages." class="col-span-1 rounded-md">
+                    </div>
+                    <p class="col-span-8">When it comes to digital product design, I think we default to this thinking where a touchpoint is a digital touchpoint, so that's the only realm we think about. But there are other levels of technology out there and they're all trying to achieve similar goals.</p>
+                    <p class="col-span-8">I had to think about the positioning opportunity as well. I'd made mention, quite a bit, about how social media was making this process more difficult in some ways and easier in other ways. The truth is, social media is a great tool for tattoo artists, but it's not a focused tool designed for things like scheduling and can make it more confusing to show things like hours and rates and can be a one-sided experience since artists will only show their very best work, so you don't get to see much of their customer's perspective. Tattoo-focused platforms, on the other hand, might be better at messaging and scheduling and showing hours and rates but aren't nearly as good for showcasing art or even being discovered. Based on the positioning matrix below, the solution is to bring those different positives into one place.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/Tattooo/Who/4.png" alt="A competitive positioning matrix showing how different, competing platforms fare in terms of being a focused or centralized platform for tattoo enthusiasts and artists." class="col-span-1 rounded-md">
+                    </div>
+                    <p class="col-span-8">As the last piece of this puzzle (as with many UX puzzles) I made a persona to compile all of the most important information into one place. If I had more time to do my interviews then I'm sure this persona would be quite different, but as it stands the persona is a 22-year-old named Jenny who has a a tumultuous relationship with her family.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/Tattooo/Who/5.png" alt="A persona representing the synthesis of the previously done research. This persona is a 22-year-old named Jenny and she has a tumultuous relationship with her parents which, in part, motivates her." class="col-span-1 rounded-md">
+                    </div>
                 </div>
             </div>
         </div>
@@ -400,6 +469,11 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">From the moment I decided to make a tattoo-focused app I started to sketch, just random icons and shapes referencing connection, unity, security, and a couple things referencing tattoos but trying to keep it more generalized. I'd also been researching URLs and Top-Level Domains for a separate project and realized early on that the Top-Level Domain ".ooo" exists and could be used as part of "tattoo" as a name. (More on that later...) I also made a kind of word cloud to connect the dots between different aspects of the platform I was building to see and explore the different name possibilities.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/2.png" alt="A page of rough sketches." class="col-span-4 rounded-md">
+                        <img src="./Assets/Images/Tattooo/Branding/1.png" alt="A page of rough sketches." class="col-span-4 rounded-md">
+                        <img src="./Assets/Images/Tattooo/Branding/3.png" alt="A page of a word cloud." class="col-span-4 rounded-md">
+                    </div>
                     <p class="col-span-8">I was able to think of more than 50 different name options. Some were clever, some were literal, some were foreign words, some were abstract concepts... I was able to narrow it down to the 4 which I think best spoke to the platform as I imagined it:</p>
                     <ul class="col-span-8 list-inside list-disc pl-4">
                         <li><span class="font-bold">Tatt.ooo</span> — over 3 weeks or so this had become a working name, anyway; its short, sweet, to the point, and easy to conceptualize</li>
@@ -407,12 +481,33 @@
                         <li><span class="font-bold">Cwtch</span> — a Welsh word for an embrace that brings with it a feeling of warmth and safety, which sounded like the right feeling I wanted my app to provide</li>
                         <li><span class="font-bold">Conversate</span> — a name that's less about the tattooing and more about the communication aspects</li>
                     </ul>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/4.svg" alt="A grid showing successive experiments using the previously listed name ideas as logotypes." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">There was some pushback, but in the end the name Tatt.ooo ended up being the most fitting. None of the other names I'd come up with (none of the 50+, not just those listed above) came close, either... I continued to work on an icon or brand symbol, though, since I felt I might need one. I explored a lot of abstract shapes as a way to contrast the particularly specific brand name.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/5.png" alt="A set of experimental icons I was using to explore different logo options." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">With the form exploration I was able to better explore all of the different concepts that my name wasn't able to touch on. Things like community, unity, communication, togetherness, and more are all different abstract concepts that I tried to explore with a brand symbol. The circular explorations felt the most appropriate so I kept working on these.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/6.png" alt="More logo experiments, combining some circular explorations with the previously attempted logotypes." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">In the end, none of the brand symbols felt quite right. At different stages they related to different things. By the end, some of them looked like icons for a municipal metro system or like animations that would play while a page loads. The best solution, at this point, was just to use the name itself as a logotype.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/Logotype.svg" alt="An example of the logotype I landed on, with explorations of how it could be used in other forms, like different kinds of icons." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">To start thinking about the visual design system, I made 3 style tile explorations. On the left, I tried to create a "sterile" visual style which would let the artists be the centerpiece, featuring only slightly rounded buttons, humanistic and geometric sans serifs, and a sparse color palette of whites, grays, and a slightly desaturated red. In the middle is a calming and community-focused style, featuring a more friendly sans serif for titles but the device default font (in this case, SF Pro) for simple clarity with a slightly smaller and quite rounded icon set. On the right is a style designed to create a more accountable feeling, with a classic serif title face accented by a narrow sans serif in some places, and a color palette of primarily black with green accents. The left felt too plain; the right felt too judicial; the middle is almost right, but it needs some adjustments.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/StyleTiles.png" alt="3 examples of style explorations. Each exploration features a different color palette, tile set, type hierarchy, and shape language." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">By now, I had roughly 5 weeks to finish a high fidelity prototype and other collateral. I had used a rounded icon set I found on Figma (<a href="https://www.figma.com/community/file/1066305773644252559">Xnix Icon Pack by Ankush Syal</a>) for the style tiles. I knew that I wouldn't have time to build out the entire set of icons I would need so I decided to use the same tileset for my prototype.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/Icons.svg" alt="A set of icons that fit my visual design quite well, with a rounded, friendly, approachable form language." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">For the colors, I used the same white, blue and gray but opted to use white as the primary background color and the blue as the primary brand color. With blue for all of the backgrounds it was harder to distinguish levels of importance across content and the blue became overwhelming after a while. I added a coral red for notifications and highlights, and was also thinking about how the platform would interact on the web, such as when artists are editing their profile, so I added 2 purple colors for hover and click feedback. Those purples are never used in the prototype, as its a mobile app (there's no hover class on phones), but I liked to have them available just in case.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Branding/Colors.svg" alt="A color palette of organized squares of color, featuring the primary brand colors (blues), along with an alert color, background colors, and secondary brand colors (purples). Each color also lists the specific hex code and the use cases for each color." class="col-span-12 w-full rounded-md">
+                    </div>
                 </div>
             </div>
         </div>
@@ -437,11 +532,29 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">The original medium-fidelity wireframes I'd made for the mobile platform were pretty well-laid out. I used many of the design principles for iPhone-based apps, such as the navigation bar at the head of each page and the lower tab bar. I also put some extra thought into how I could organize the interface to refrain from having to use a hamburger menu, if at all possible.</p>
-                    <p class="col-span-8">As mentioned above, however, the main form for posting tattoo ideas proved to be too simplistic. It was a singular page with a series of text fields and a file upload. It needed to be so much more than that. People who get tattoos are so varied, they cover every stretch of life and touch every demographic you could imagine. There's certainly a population of people whose first tattoo is sudden, maybe picked out of a selection of available art, or chosen for them by a friend, or even a simple idea they've already been sold on for a while; this form isn't for those users. The form is for the users who've put more thought and requirement into the tattoo they want to get. Maybe it's a concept they can't quite visualize but they can describe with words, maybe it's a distinct visual they've imagined for years, or maybe it's a complicated idea that requires some explanation. Whatever the case, this form shouldn't be so simple that a single page of text fields can cover it. When I realized all of this, I decided to separate each question into a separate step of the form and to also think of more interesting ways to answer each question that would create a better mental connection.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Visual/1.png" alt="First set of medium fidelity wireframes, blocking out the layout using gray boxes and filler text." class="col-span-12 w-full rounded-md">
+                    </div>
+                    <p class="col-span-8">As mentioned above, however, the main form for posting tattoo ideas proved to be too simplistic. It was a singular page with a series of text fields and a file upload. It needed to be so much more than that. People who get tattoos are so varied, they cover every stretch of life and touch every demographic you could imagine. There's certainly a population of people whose first tattoo is sudden, maybe picked out of a selection of available art, or chosen for them by a friend, or even a simple idea they've already been sold on for a while; this form isn't for those users. The form is for the users who've put more thought and requirement into the tattoo they want to get. Maybe it's a concept they can't quite visualize but they can describe with words, maybe it's a distinct visual they've imagined for years, or maybe it's a complicated idea that requires some explanation. Whatever the case, this form shouldn't be so simple that a single page of text fields can cover it. When I realized all of this, I decided to separate each question into a separate step of the form and to also think of more interesting ways to answer each question that would create a better mental connection. (This form looks quite a bit longer and more complicated, and from a certain standpoint, it is. However, it's also quite thought out and leads the user through quite thorough steps, from left to right.)</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Visual/2.png" alt="A revised set of medium fidelity wireframes that goes through the entirety of the new form process for users to post their tattoo ideas." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">Once I had the majority of the of the structure completed, I started applying my branding and styles to transition the prototype into high fidelity. First, there's a card system to help organize content.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Visual/3.png" alt="High fidelity prototype designs showing consistent card elements used throughout the interface." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">Next, there's the button styles. These took more time to get right. Since the full-width buttons lead to another page, I decided to place the descriptive arrow to make it clear you're moving forward to the relevant content (forward:to the right; the direction of forward progress in the West) as well as to act as a clear call to action for these elements.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Visual/4.png" alt="High fidelity prototype designs showing consistent button styles used throughout the interface." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">I was able to reuse the CTA from the full-width buttons as a similar CTA for the social button styles. In this case, the CTA is context-dependant. Depending on what page you're on it could be a "show more" button or a "message" button.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Visual/5.png" alt="High fidelity prototype designs showing a contextual social button that builds upon the previous button design language." class="col-span-12 w-full rounded-md">
+                    </div>
                     <p class="col-span-8">Finally, the form itself contains a variety of elements that combine aspects from the rest of the app. There are longer text inputs (compared to a search bar) for a title and description, there are checkboxes depicted as cards, and the tab bar is completely replaced since the focus is on the form, not extra navigation options.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-12 gap-1">
+                        <img src="./Assets/Images/Tattooo/Visual/6.png" alt="A set of high fidelity prototype screens showing the final design system applied to the revised form flow." class="col-span-12 w-full rounded-md">
+                    </div>
                 </div>
             </div>
         </div>
