@@ -305,6 +305,13 @@
                 </div>
             </div>
 
+            <!-- IMAGE BREAK -->
+            <div class="grid grid-cols-12 mb-12 md:mb-24 -mt-20 md:-mt-32">
+                <div class="drop-shadow-2xl p-4 col-span-12 col-start-1 md:col-span-8 md:col-start-1">
+                    <img src="./Assets/Images/FontFacing/Mockup1.png" alt="A mockup of the starting screen of FontFacing on a Macbook.">
+                </div>
+            </div>
+
         </div>
 
         <!-- BODY END -->
@@ -362,17 +369,35 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">When I started this project, I had to create a training model to understand how AI analyzes the content that it's trained on in order to form the training model that will then be used.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">At the time, I had hundreds of photos of beers that I've taken over a few years just sitting around waiting to be used for something, so I made the first training model using around 1,000 of these photos. Some contain things in the background, like a bar, living room, and even people, and some are on a white background. Some show one, two, or three cans or bottles in various sizes. Most of them show a glass that's been filled with beer, and some show multiple glasses that have been filled with beer.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Training/1.png" alt="A large grid of photos of beers." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/FontFacing/Training/1b.png" alt="4 images that were created from the previous images." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">This training model was interesting. I didn't know what to expect. The resulting images that were generated from it are actually a pretty good showing, but the photos I used for the model weren't selected or taken with AI training in mind (they weren't vetted and I didn't take a look at any of them prior to building the model). I wanted to make another model where the images were very specifically created with the purpose of being put into a training model in order to see how that would affect the generated images compared to the first model. I gathered 30 beers (all 16-ounce cans) and took new photos with each can against a white backdrop, although I staggered the angles and composition of the photos. This training model was different, but provided much more insight as to how the system was analyzing the given photos.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Training/2.png" alt="A large grid of photos of beers." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/FontFacing/Training/2b.png" alt="4 images that were created from the previous images." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">For the hands-on research, I made one last model with very simple images, 30 different versions of a capital 'A', each one black on a white background. The output from this (seen to the right) may seem like a poor result but, to the contrary, I believe that it serves as concrete proof that I'm thinking about the concept correctly: an AI training model is perfectly capable of finding patterns, consistent details, and unique attributes and then recreating those aspects... as long as it's given an appropriate context.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-2 gap-1">
+                        <video class="bg-video__content rounded-md overflow-hidden col-span-1 col-start-1" title="30 different versions of a capital letter 'A' used as training input" autoplay muted loop>
+                            <source src="Assets/Images/FontFacing/Training/Letter_A_Input.mp4" type="video/mp4">
+                        </video>
+                        <video class="bg-video__content rounded-md overflow-hidden col-span-1 col-start-2" title="36 different versions of a capital letter 'A' generated by this training model" autoplay muted loop>
+                            <source src="Assets/Images/FontFacing/Training/Letter_A_Output2.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <p class="col-span-8">I did additional research regarding AI systems working on vector images, as well as the current prevalence of AI in the creation, recreation, and/or expansion of typographic systems. There's currently a lot of work put into text (copy) generation, but not a lot of work put into typeface or letterform generation.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
                     <p class="col-span-8">In particular, I was inspired by the work of Erik Bern, Jean Böhm, and Måns Grebäck. These 3 designers (writing about their experiments in 2016, 2020, and 2022, respectively) have all worked in the space of typeface generation. Erik Bern used 50,000 fonts to train a neural network; Jean Böhm advanced and refined AI abilities to work with SVG paths and anchor points; Måns Grebäck experimented with machine learning in the use of Stable Diffusion to generate new or stylistically similar typefaces to those he provided. All of their work served as proof that my concept could work, I just had to design an interface for it.</p>
-                    <div class="col-span-6 col-start-1 lg:col-start-7 w-full h-36 bg-black/20 rounded-md my-4"></div>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Inspiration/01_BernErik.gif" alt="Research image via Erik Bern" class="col-span-1 rounded-md">
+                        <p class="text-xs text-black mb-2">Aggregated letter generations from Erik Bern.</p>
+                        <img src="./Assets/Images/FontFacing/Inspiration/02_GrebackMans.png" alt="Research image via Måns Grebäck" class="col-span-1 rounded-md">
+                        <p class="text-xs text-black mb-2">Typeface inputs (either lowercase or uppercase) alongside the AI-generated accompaniment (lowercase used to generate uppercase and vice versa) from Måns Grebäck.</p>
+                        <img src="./Assets/Images/FontFacing/Inspiration/03_BoehmJean.png" alt="Research image via Jean Böehm" class="col-span-1 rounded-md">
+                        <p class="text-xs text-black">Extensive experiments using AI to generate svg paths for a lowercase letter 'a' from Jean Böehm.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -396,11 +421,26 @@
                 </div>
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
-                    <p class="col-span-8">The first ideation, as a webapp, was not focused enough on being an empowering tool. The idea at this stage was a very easy to use, approachable webapp that was designed to be as simple as possible for new users to start designing, but was not a thorough design tool for serious typeface designers. This first exploration also didn't use the AI system to the fullest; it uses Ai behind the scenes and generates a typeface through a basic text prompt system, with some uber simplistic drawing tools that can be used afterwards. This was inspired largely by the popularity of systems like ChatGPT and MidJourney, which were exploding in popular discussion and social awareness at the time I was designing this exploration.</p>
+                    <p class="col-span-8">The first ideation, as a webapp, was not focused enough on being an empowering tool. The idea at this stage was a very easy to use, approachable webapp that was designed to be as simple as possible for new users to start designing, but was not a thorough design tool for serious typeface designers. This first exploration also didn't use the AI system to the fullest; it uses AI behind the scenes and generates a typeface through a basic text prompt system, with some uber simplistic drawing tools that can be used afterwards. This was inspired largely by the popularity of systems like ChatGPT and MidJourney, which were exploding in popular discussion and social awareness at the time I was designing this exploration.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Starting/1.png" alt="A low fidelity wireframe of the desktop app." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">It was very obvious that this concept needed a lot <span class="italic">more</span>. I started to look at platforms like Adobe Illustrator, FontLab, and Figma to see how popular design applications approach interface design as well as putting some more thought into the minimum level of tools that would be necessary to make a platform like this work for serious designers. At this stage, Adobe was starting to make public their beta AI tools and context menus, so I added a floating context menu to my next iteration. FontLab and Figma also heavily (almost entirely) utilize sidebars to show properties and options, so I added a sidebar to the right side to explore the use and representation of the AI analysis within the application.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Starting/2.png" alt="A low fidelity wireframe of the desktop app." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">One iteration points to the workflow of typeface design and the fact that there are different stages. As far as typeface design goes, there's always a basic sketching phase to explore the visual language, there's a focused stage where you can really get lost in the weeds of making tiny adjustments to every single anchor point, and there's a letter-spacing phase at the end where you can fine tune the spacial relationships between each character. What an AI-driven workflow would add is a "live generation" mode to this. What this means is that the sketching phase (whether sketching in the application using drawing/vector tools or uploading photos of analog sketches or inputting a text prompt to generate some imagery as an aesthetic basis) can be used as the input for the training model of an AI. The idea here is that once you enter into the "live generation" mode, the platform will build out the entirety of the typeface (all remaining characters that haven't been sketched, smooth anchor points, etc.) and then whenever you make changes to a character the AI can continuously take those changes as additional input and refine the rest of the typeface.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Starting/3.png" alt="A low fidelity wireframe of the desktop app." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">Before getting into the weeds of the visual design language for the interface, I did some more exploration of how to better incorporate the AI into a driving force and permanent aspect of the platform. To make it front and center, I brought it into a modal which would open immediately when starting a new file to allow some text input to generate a starting point or a file upload to allow immediate image training. Alongside this, I also did a variety of quick wireframes experimenting with the placement of the toolbar and some other elements.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Starting/4.png" alt="A low fidelity wireframe of the desktop app." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">This proved to be the final version of this interface, showing the entire typeface on a single, large artboard. The next versions would be a drastic change after some serious introspection and revisiting my research.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Starting/5.png" alt="A low fidelity wireframe of the desktop app." class="col-span-1 rounded-md">
+                    </div>
                 </div>
             </div>
         </div>
@@ -425,11 +465,16 @@
                 <div class="w-full h-0.5 bg-black/20 rounded-full my-6 col-span-12"></div>
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">To start working on my visual design language and really define the appearance and experience of using the interface, I did some explorations of verbiage relative to line, shape, color, form, space, and texture. This was a long process because I was never quite satisfied with the design aspects; none of them seemed quite right. (More on this later.)</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-3 gap-1">
+                        <img src="./Assets/Images/FontFacing/Revisions/1.png" alt="An exploratory sketching exercise to try to figure out some of the finalized visual design language." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/FontFacing/Revisions/2.png" alt="An exploratory sketching exercise to try to figure out some of the finalized visual design language." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/FontFacing/Revisions/3.png" alt="An exploratory sketching exercise to try to figure out some of the finalized visual design language." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">I took a step back from my interface design to ponder. The original idea to have one larger working area and showing all of the characters within the typeface, was to point to a workflow where you can easily zoom in and out of your work to see your micro changes against the overarching macro design of the typeface. I realized, however, that working on typefaces is often spent on details, zoomed into the letterforms; I also noticed that after adding the sidebar windows to showcase the AI analysis and generation (overarching navigation view in the bottom right) that they served a similar purpose of making the macro visible to the designer.</p>
                     <p class="col-span-8">Alongside the change to individual artboards for each letterform, I needed a way to navigate between these artboards. When looking at the interface of Figma (a central working area bookended by sidebars on the left and right, with layers on the left and properties on the right), I realized that an artboard for a single character would be compact enough that having a sidebar on the left of the window wouldn't inhibit the working area and would also give me a space to house the "layers" of the template, guidelines, shapes, etc.</p>
-                    <p class="col-span-8"></p>
-                    <p class="col-span-8"></p>
-                    <p class="col-span-8"></p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Revisions/4.png" alt="A finalized version of the interface which features additional elements, like another sidebar." class="col-span-1 rounded-md">
+                    </div>
                 </div>
             </div>
         </div>
@@ -455,8 +500,18 @@
                 <div class="text-sm space-y-4 col-span-12 grid gap-4 grid-cols-1 lg:grid-cols-12">
                     <p class="col-span-8">Narrowing down and specifying the audience that I was designing for helped the design process a lot. My initial concept was a much more casual experience with more basic interactions. Specifying that my audience would be type and graphic designers and type foundries (people and companies who are intimately familiar with design and design programs) helped me to design with more intention.</p>
                     <p class="col-span-8">With more intention in mind, I was also able to better apply what I'd learned about AI and machine learning systems. In early stages, my concept didn't really address some of my initial research insights, for instance: my observation regarding AI feeling like magic. Adding the analysis window to a side bar (and the ability to confirm and even edit some of the program's analysis) allows the user to feel like they are still in control of the machine learning system, rather than an observer.</p>
-                    <p class="col-span-8">Something else that I've noticed within this process is the difficulty of working with gray as a primary color of a brand or experience. Since low fidelity and medium fidelity wireframing can often use shades of gray, when gray colors carry over into high fidelity designs it can be off-putting for collaborators and stakeholders. However, when we look at the primary competitors (FontLab, Adobe, Figma, etc.) their interfaces are inundated with shades of gray; light gray, dark gray, charcoal, gray is everywhere. There's always a prevailing idea that you shouldn't try to emulate your competition, but if they all have a similar design ethos then it should be indicative that a particular design ethos prevails for a reason: an interface which you'll be glued to for hours at a time can be overwhelming and distracting when too much color is involved.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-2 gap-1">
+                        <img src="./Assets/Images/FontFacing/Final/2.png" alt="An early version of the analysis sidebar." class="col-span-1 rounded-md">
+                        <img src="./Assets/Images/FontFacing/Final/1.png" alt="The final version of the analysis sidebar." class="col-span-1 rounded-md">
+                    </div>
+                    <p class="col-span-8">Something else that I've noticed within this process is the difficulty of working with gray as a primary color of a brand or experience. Since low fidelity and medium fidelity wireframing can often use shades of gray, when gray colors carry over into high fidelity designs it can be off-putting for collaborators and stakeholders. (And every professor I've ever had has appreciated shades of gray in graphic design work but not in user interfaces.) However, when we look at the primary competitors (FontLab, Adobe, Figma, etc.) their interfaces are inundated with shades of gray; light gray, dark gray, charcoal, gray is everywhere. There's always a prevailing idea that you shouldn't try to emulate your competition (and that's absolutely true, to a certain extent) but if they all have a similar design ethos then it should be indicative that a particular design ethos prevails for a reason: an interface which you'll be glued to for hours at a time can be overwhelming and distracting when too much color is involved.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Final/3.png" alt="A color exploration of the final interface and prototype." class="col-span-1 rounded-md">
+                    </div>
                     <p class="col-span-8">The high fidelity prototypes that I produced for the end of the class are visual designs that I was not entirely proud of. The color system doesn't quite work, and I decided to continue working on the designs afterward. The revised designs are what you see here.</p>
+                    <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-3 w-full grid grid-cols-1 gap-1">
+                        <img src="./Assets/Images/FontFacing/Final/4.png" alt="A color exploration of the final interface and prototype." class="col-span-1 rounded-md">
+                    </div>
                 </div>
             </div>
         </div>
