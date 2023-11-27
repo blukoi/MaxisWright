@@ -248,7 +248,7 @@
             <div class="mb-48 mt-24 col-span-12 grid grid-cols-12 gap-4 font-light">
                 <h2 class="col-span-12 text-center text-4xl text-fontfacingblue px-8 sm:px-0">Defining the Workflow Loop</h2>
 
-                <div class="col-span-12 flex justify-center">
+                <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3 flex justify-center">
                     <img src="./Assets/Images/FontFacing/WorkflowLoop.svg" alt="An image showing the different possible workflow loops through each AI method, including file uploads, text prompts, and drawing tools. The workflows show that each method leads into the AI training model and then loops back to the start, showing that any input will affect the training model as you work.">
                 </div>
             </div>
@@ -272,20 +272,25 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-full grid grid-cols-12 drop-shadow-lg -mb-2 md:-mb-4 z-[29]">
-                    <div class="bg-video rounded-lg overflow-hidden relative col-span-9 md:col-span-6 col-start-4 md:col-start-7">
+                <div class="w-full grid grid-cols-12 drop-shadow-lg mb-8 z-[29]">
+                    <div class="bg-video rounded-lg overflow-hidden relative col-span-9 col-start-4 md:col-span-6 md:col-start-7 lg:col-span-5 lg:col-start-7 xl:col-span-4 xl:col-start-7">
                         <img src="./Assets/Images/FontFacing/Frame 36.png" alt="A medium fidelity wireframe showing a pop-up modal with tabs to choose the method by which to start working on a new design file">
                     </div>
                 </div>
-                <div class="w-full grid grid-cols-12 drop-shadow-lg z-30">
-                    <div class="bg-video overflow-hidden rounded-lg bg-white relative col-span-12 md:col-span-11">
+                <div class="w-full grid grid-cols-12 z-40">
+                    <div class="bg-fontfacingblue/50 backdrop-blur-md drop-shadow-2xl text-white p-4 rounded-md -mb-4 md:-mb-6 lg:-mb-8 col-span-8 col-start-5 md:col-span-6 md:col-start-7 lg:col-span-4 lg:col-start-9">
+                        <p>Above: the original concept of introducing the AI features occurred as a modal when starting a new file, after which they would be available in context menus. Below: the updated concept of giving the AI features a permanent home in the menu/mode bar.</p>
+                    </div>
+                </div>
+                <div class="w-full grid grid-cols-12 drop-shadow-lg z-[29]">
+                    <div class="bg-video overflow-hidden rounded-lg bg-white relative col-span-12 md:col-span-11 lg:col-span-10 xl:col-span-9">
                         <img src="./Assets/Images/FontFacing/Component 5.png" alt="A higher fidelity wireframe showing a toolbar in a desktop application which features permanent AI generation features">
                     </div>
                 </div>
             </div>
 
             <!-- CONTENT SECTION -->
-            <div class="flex flex-col mb-24 md:mb-36">
+            <div class="flex flex-col mb-8 sm:-mb-4 md:-mb-8 lg:-mb-16 xl:-mb-24">
                 <div class="w-full flex justify-end -mb-4 md:-mb-6">
                     <div class="w-9/12 md:w-7/12 bg-fontfacingblue/50 backdrop-blur-md text-white p-4 rounded-md drop-shadow-2xl z-40">
                         <h1 class="text-2xl mb-4">Finishing Up</h1>
@@ -306,9 +311,19 @@
             </div>
 
             <!-- IMAGE BREAK -->
-            <div class="grid grid-cols-12 mb-12 md:mb-24 -mt-20 md:-mt-32">
-                <div class="drop-shadow-2xl p-4 col-span-12 col-start-1 md:col-span-8 md:col-start-1">
-                    <img src="./Assets/Images/FontFacing/Mockup1.png" alt="A mockup of the starting screen of FontFacing on a Macbook.">
+            <div class="grid grid-cols-12 mb-12 md:mb-24">
+                <div class="drop-shadow-2xl p-4 col-span-12 col-start-1 sm:col-span-10 md:col-span-8 xl:col-span-6">
+                    <img src="./Assets/Images/FontFacing/Mockup1.png" alt="A mockup of the starting screen of FontFacing on a Macbook." class="rounded-lg">
+                </div>
+                <div class="p-4 bg-gradient-to-b from-white/10 to-transparent backdrop-blur-md rounded-lg 
+                col-span-12 col-start-1 sm:col-span-10 sm:col-start-2 md:col-span-8 md:col-start-3
+                mt-0 md:-mt-24 lg:-mt-32 xl:-mt-40">
+                    <img src="./Assets/Images/FontFacing/Mockup2b.png" alt="A mockup of the starting screen of FontFacing on a Macbook." class="rounded-lg">
+                </div>
+                <div class="drop-shadow-2xl p-4 
+                col-span-12 col-start-1 sm:col-span-10 sm:col-start-3 
+                mt-0">
+                    <img src="./Assets/Images/FontFacing/Mockup3.png" alt="A mockup of the starting screen of FontFacing on a Macbook." class="rounded-lg">
                 </div>
             </div>
 
@@ -327,7 +342,9 @@
                             <h3 class="text-xl sm:text-2xl lg:text-4xl font-bold">More Work</h3>
                         </div>
                     </div>
-                    <div class="w-1/2 h-48 bg-black/20 absolute top-1/2 left-0 -translate-y-1/2 rounded-md mx-4"></div>
+                    <div class="w-1/2 absolute top-1/2 left-0 -translate-y-1/2 rounded-md overflow-hidden mx-4">
+                        <img src="./Assets/Images/Work.png" alt="A preview image showing an iPhone app mockup next to the coded website.">
+                    </div>
                 </a>
 
                 <!-- NEXT PROJECT -->
@@ -395,8 +412,8 @@
                         <p class="text-xs text-black mb-2">Aggregated letter generations from Erik Bern.</p>
                         <img src="./Assets/Images/FontFacing/Inspiration/02_GrebackMans.png" alt="Research image via Måns Grebäck" class="col-span-1 rounded-md">
                         <p class="text-xs text-black mb-2">Typeface inputs (either lowercase or uppercase) alongside the AI-generated accompaniment (lowercase used to generate uppercase and vice versa) from Måns Grebäck.</p>
-                        <img src="./Assets/Images/FontFacing/Inspiration/03_BoehmJean.png" alt="Research image via Jean Böehm" class="col-span-1 rounded-md">
-                        <p class="text-xs text-black">Extensive experiments using AI to generate svg paths for a lowercase letter 'a' from Jean Böehm.</p>
+                        <img src="./Assets/Images/FontFacing/Inspiration/03_BoehmJean.png" alt="Research image via Jean Böhm" class="col-span-1 rounded-md">
+                        <p class="text-xs text-black">Extensive experiments using AI to generate svg paths for a lowercase letter 'a' from Jean Böhm.</p>
                     </div>
                 </div>
             </div>
