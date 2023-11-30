@@ -60,7 +60,11 @@ font-style: italic;
 
 @font-face {
     font-family: 'Optician Sans';
-    src: local('Optician Sans');
+    src: url('optician-sans-webfont.woff2') format('woff2'),
+         url('optician-sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
@@ -138,12 +142,12 @@ h3, h4, h5, h6 {
 }
 
 .jumbotron1 {
-    background: url(./Assets/gradient1.png);
+    background: url(../Assets/gradient1.png);
     background-size: cover;
 }
 
 .jumbotron2 {
-    background: url(./Assets/gradient2.png);
+    background: url(../Assets/gradient2.png);
     background-size: cover;
     opacity: 0%;
     animation: pulse 60s linear infinite;
