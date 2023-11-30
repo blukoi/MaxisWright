@@ -25,9 +25,14 @@
             theme: {
                 extend: {
                     colors: {
-                        mint: '#00ab8f',
-                        lightishblue: '#eff7ff',
-                        fontfacingblue: '#122f3c',
+                    mint: '#00ab8f',
+                    lightishblue: '#eff7ff',
+                    fontfacingblue: '#122f3c',
+                    tattooblue: '#4285f4',
+                    tattooalert: '#ff6f6f',
+                    academyblue: '#2e95e0',
+                    academygold: '#b89848',
+                    neutralbg: '#d9d9d9',
                     }
                 }
             }
@@ -110,69 +115,170 @@
     <div class="w-full h-screen jumbotron1 relative z-10 bg-white">
         <div class="w-full h-screen jumbotron2 absolute"></div>
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 container mx-auto w-full h-full">
-            <div class="w-full h-full grid grid-cols-12 items-center gap-4 p-4 sm:p-0">
-                <div class="col-span-12 md:col-span-6 flex flex-col justify-center content-center space-y-4 drop-shadow-lg">
+            <div class="w-full h-full grid grid-cols-12 content-center items-center gap-4 p-4 sm:p-0">
+                <div class="col-span-12 md:col-span-4 xl:col-start-2 flex flex-col justify-center content-center space-y-4 drop-shadow-lg">
                     <div class="w-full flex justify-center">
-                        <img src="./Assets/Images/2022_Knockout_Sq.png" alt="A portrait of Max looking handsome, not a posed photograph at all!" class="w-48 rounded-full">
+                        <img src="./Assets/Images/2022_Knockout_Sq.png" alt="A portrait of Max looking handsome, not a posed photograph at all!" class="w-32 md:w-48 rounded-full">
                     </div>
                     <div class="w-full flex justify-center">
-                        <h1 class="w-fit text-4xl md:text-6xl px-4 py-2 bg-white text-mint rounded-lg">Hi, I'm Max!</h1>
+                        <h1 class="w-fit text-4xl xl:text-6xl px-4 py-2 bg-white text-mint rounded-lg hidden md:inline-block">Hi, I'm Max!</h1>
                     </div>
                 </div>
-                <div class="col-span-12 md:col-span-6 xl:col-span-4 xl:col-start-8 font-light text-white space-y-4">
-                    <p>Once upon a time I illegally downloaded photoshop in high school and taught myself to use it. After high school, in 2009, I attended FIDM for graphic design but wound up leaving the school for personal reasons. I ended up at Santa Monica College trying to figure out myself and my life, flipping through majors like they were chapters in a book: Photography, Film Studies, English, Psychology...</p>
-                    <p>But it was when I discovered interaction design that the gears all started to click. I knuckled down and got an AS in Graphic Design from Santa Monica College before starting at ArtCenter for Interaction Design.</p>
-                    <p>My need for discovery means that I'm constantly trying to design for something new while also exploring the best beer that money can buy. But I’m really at my best when I’m eating burgers. Plural.</p>
+                <div class="col-span-12 md:col-span-8 xl:col-span-4 xl:col-start-8 font-light text-white space-y-4">
+                    <p class="w-full md:w-3/4 xl:w-full mx-auto">Once upon a time, in high school, I illegally downloaded photoshop and taught myself to use it. I ended up at Santa Monica College trying to figure out myself and my life, flipping through majors like they were chapters in a book: Photography, Film Studies, English, Psychology... But it was when I discovered interaction design that everything clicked.</p>
+                    <p class="w-full md:w-3/4 xl:w-full mx-auto">My need for discovery means that I'm constantly trying to design for something new but I’m really at my best when I’m eating burgers.</p>
+                    <div class="pt-2 w-full md:w-3/4 xl:w-full mx-auto">
+                        <a href="./links.html" class="bg-white text-mint px-4 py-2 rounded-md hover:bg-mint hover:text-white">The best way to contact me is via Email</a>
+                    </div>
                 </div>
             </div>
         </div>      
     </div>
         
-    <div class="w-full h-screen z-10 bg-white">
+    <div class="w-full z-10 bg-white">
 
         <!-- SHADOW -->
         <div class="h-8 col-span12 self-start bg-gradient-to-b from-black/30 to-black/0 -mb-8"></div>
 
-        <div class="container mx-auto w-full h-full">
-            <div class="w-full h-full grid grid-cols-12 items-center gap-4 p-4 sm:p-0">
+        <div class="container mx-auto w-full h-full py-24">
+            <div class="w-full h-full grid grid-cols-12 gap-4 p-4 sm:p-0 text-sm">
                 
-                <div class="col-span-12 md:col-span-6 xl:col-span-4 xl:col-start-2 font-light text-black space-y-4 relative drop-shadow-lg">
-                    <div class="w-full h-36 relative rounded-lg construction">
-                        <h2 class="text-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-2xl">Contact form coming soon</h2>
+                <div class="col-span-12 col-start-1 lg:col-span-6 space-y-8 order-2 lg:order-1">
+                    <div class="pt-8">
+                        <h2 class="text-2xl lg:text-4xl text-mint bg-mint text-white rounded-md w-fit px-4 py-2">Education</h2>
                     </div>
+                    <ul>
+                        <li class="list-inside font-bold">ArtCenter College of Design | <span class="font-normal">Pasadena, CA</span></li>
+                        <li class="list-inside"><span class="text-mint">2023:</span> Bachelor of Science - Interaction Design (3.93 GPA)</li>
+                        <li class="list-disc list-inside px-4">Sponsored Project — Greenies Dental Treats (Mars, inc.)</li>
+                        <li class="list-disc list-inside px-12">Conducted primary research and research synthesis; found numerous customer pain points, opportunities, and insights</li>
+                        <li class="list-disc list-inside px-12">Produced prototypes and revisions based on feedback and usability testing</li>
+                        <li class="list-disc list-inside px-12">Curated process books, storyboards, digital mock ups, videos, and delivered a proof of concept for multiple products to sponsor’s product managers and heads of design</li>
+
+                        <li class="list-disc list-inside px-4">Everyday Immersions (introduction to user experience design in XR, AR, and VR using Unity)</li>
+                        
+                        <li class="list-disc list-inside px-4">Visual Interaction Design (foundational research to high level design of branding, user scenario, microinteractions, storyboard, promo video, working prototype, and other artifacts)</li>
+                    </ul>
+                    <ul>
+                        <li class="list-inside font-bold">Santa Monica College | <span class="font-normal">Santa Monica College</span></li>
+                        <li class="list-inside"><span class="text-mint">2020:</span> Associate of Science - Graphic Design</li>
+                    </ul>
                 </div>
 
-                <div class="col-span-12 md:col-span-6 xl:col-span-4 md:col-start-7 xl:col-start-8 flex flex-col space-y-4">
-
-                    <div class="text-black">
-                        <p>If you need to reach me, the best way to do it is via email but, if you'd prefer, you can always message me on LinkedIn or even Instagram.</p>
+                <div class="col-span-12 col-start-1 lg:col-span-6 space-y-8 order-2 lg:order-3 mt-0 lg:mt-12">
+                    <div class="pt-8">
+                        <h2 class="text-2xl lg:text-4xl text-mint bg-mint text-white rounded-md w-fit px-4 py-2">Skills</h2>
                     </div>
 
-                    <!-- LINK ONE -->
-                    <a href="mailto:max.wri@gmail.com" class="w-full p-4 rounded-lg drop-shadow-lg bg-white text-mint hover:bg-mint hover:text-white grid gap-4 grid-cols-12 items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="2em"  class="col-span-2 w-full flex justify-center" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" fill="currentColor"/>
-                        </svg>
-                        <p class="col-span-10 col-start-3">Email Me</p>
-                    </a>
+                    <ul>
+                        <li class="list-inside font-bold">Design</li>
+                        <li>
+                            <div class="flex flex-row flex-wrap space-y-1 space-x-1">
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Design Thinking</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Iterative Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Design Psychology</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Information Architecture</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Mockups</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Microinteractions</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Wireframing</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Prototyping</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Accessibility</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User-Centered Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User Interface Design (UI)</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User Experience Design (UX Design)</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Design Systems</span>
+                            </div>
+                        </li>
+                    </ul>
 
-                    <!-- LINK TWO -->
-                    <a href="https://www.linkedin.com/in/maxiswright/" class="w-full p-4 rounded-lg drop-shadow-lg bg-white text-mint hover:bg-mint hover:text-white grid gap-4 grid-cols-12 items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="col-span-2 w-full flex justify-center" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" fill="currentColor"/>
-                        </svg>
-                        <p class="col-span-10 col-start-3">LinkedIn</p>
-                    </a>
+                    <ul>
+                        <li class="list-inside font-bold pt-4">Digital</li>
+                        <li>
+                            <div class="flex flex-row flex-wrap space-y-1 space-x-1">
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Adobe Suite (Illustrator, Photoshop, InDesign, AfterEffects, XD, Lightroom)</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Figma</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Cinema 4D</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">SolidWorks</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Microsoft Office Suite</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Google Workspace</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Slack</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Zoom</span>
+                            </div>
+                        </li>
+                    </ul>
 
-                    <!-- LINK THREE -->
-                    <a href="https://www.instagram.com/maxiswright/?hl=en" class="w-full p-4 rounded-lg drop-shadow-lg bg-white text-mint hover:bg-mint hover:text-white grid gap-4 grid-cols-12 items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="2em" class="col-span-2 w-full flex justify-center" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor"/>
-                        </svg>
-                        <p class="col-span-10 col-start-3">Work Account</p>
-                    </a>
-
+                    <ul>
+                        <li class="list-inside font-bold pt-4">Code</li>
+                        <li>
+                            <div class="flex flex-row flex-wrap space-y-1 space-x-1">
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Visual Studio Code</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Github</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">HTML</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">CSS</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">JS</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">jQuery</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">PHP</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Python</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Basic Computer Science</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+                
+                <div class="col-span-12 col-start-1 lg:col-span-6 space-y-8 order-1 lg:order-2">
+                    <div class="pt-8">
+                        <h2 class="text-2xl lg:text-4xl text-mint bg-mint text-white rounded-md w-fit px-4 py-2">Work</h2>
+                    </div>
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>ArtCenter College of Design | <span class="font-normal">Pasadena, CA & Remote</span></span><span class="text-mint">2023</span></li>
+                        <li class="list-inside">Teaching Assistant (Communication Design 2, Interaction Design 2)</li>
+                        <li class="list-disc list-inside px-4">Collaborated with instructors for implementation of lesson plans</li>
+                        <li class="list-disc list-inside px-4">Guided student work with a focus on empathy, workflow advice, and constructive criticism</li>
+                        <li class="list-disc list-inside px-4">Systematic collaboration with students to guide project direction and articulation</li>
+
+                        <li class="list-inside">Orientation Leader</li>
+                        <li class="list-disc list-inside px-4">As a team project, delivered presentations and a video abstracting college insights, school culture, personal anecdotes, and other details</li>
+                        <li class="list-disc list-inside px-4">Guided new students during orientation</li>
+                    </ul>
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>BevMo | <span class="font-normal">West Los Angeles, CA</span></span><span class="text-mint">2015 - 21</span></li>
+                        <li class="list-inside">Head Clerk (Manager on Duty) & Beer Buyer (2018 – 21)</li>
+                        <li class="list-disc list-inside px-4">Collaborated with team to establish daily responsibilities as well as prioritizing tasks</li>
+                        <li class="list-disc list-inside px-4">Tracked sales growth to find areas of opportunity vs. diminishing returns (ROI) Interim Lead & Beer Buyer (2016 – 18)</li>
+
+                        <li class="list-inside">Interim Lead & Beer Buyer (2016–18)</li>
+                        <li class="list-disc list-inside px-4">Implemented sales data to inform purchase orders within the beer department and increased sales from -0.4% to +34.9% sales comp</li>
+                        <li class="list-disc list-inside px-4">Trained employees in customer service & management techniques</li>
+                        
+                        <li class="list-inside">Associate (2015 – 16)</li>
+                        <li class="list-disc list-inside px-4">Communicated with customers to streamline discovery of new products</li>
+                    </ul>
+                </div>
+                
+                <div class="col-span-12 col-start-1 lg:col-span-6 space-y-8 order-4 mt-0 lg:mt-12">
+                    <div class="pt-8">
+                        <h2 class="text-2xl lg:text-4xl text-mint bg-mint text-white rounded-md w-fit px-4 py-2">Honors</h2>
+                    </div>
+                    
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>ArtCenter College of Design | <span class="font-normal">Provost's List</span></span><span class="text-mint">2022 - 23</span></li>
+                    </ul>
+
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>ArtCenter Gallery | <span class="font-normal">on display</span></span><span class="text-mint">2022 - 23</span></li>
+                        <li class="list-disc list-inside px-4">Rapid Product Prototypes (Frank Lloyd Wright-inspired Keyboard & Lamp)</li>
+                        <li class="list-disc list-inside px-4">Milo Baughman Recliner 74 (1/4-scale Physical Model)</li>
+                    </ul>
+                    
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>BevMo | <span class="font-normal">Amazing Customer Experience Award</span></span><span class="text-mint">2016</span></li>
+                    </ul>
+                </div>
+
             </div>
         </div>      
     </div>
