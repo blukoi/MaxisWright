@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Page Title -->
-    <title>Max is Wright - <?php echo $pages[$pageSlug]; ?></title>
+    <title>Max is Wright - Work</title>
 
 </head>
 <body class="bg-mint/10">
@@ -28,10 +28,9 @@
 
                 <a href="./fontfacing.php" 
                 class="col-span-6 xl:col-span-4 grid grid-cols-1 md:grid-cols-12 gap-8 bg-fontfacingblue hover:bg-mint text-white rounded-lg p-2 pb-8 h-fit">
-                    <div class="col-span-1 md:col-span-12 aspect-square flex justify-center content-center">
-                        <img src="./Assets/Images/FontFacing/FF_Macbook.png" 
-                        alt="A mockup of a desktop app for typeface design being used on a MacBook" 
-                        class="h-max">
+                    <div class="col-span-1 md:col-span-12 aspect-square flex justify-center place-items-center">
+                        <img src="./Assets/Images/FontFacing/Mockup3.png" 
+                        alt="A mockup of a desktop app for typeface design being used on a MacBook" class="aspect-[1728/1045] place-self-center">
                     </div>
                     <h3 class="col-span-1 md:col-span-12 w-full text-2xl font-bold">FontFacing: <span class="font-normal">a new way to design typefaces</span></h3>
                 </a>

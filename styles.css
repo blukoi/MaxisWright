@@ -166,7 +166,7 @@ h3, h4, h5, h6 {
 }
 
 .construction {
-    background-image: url('./Assets/Images/Construction.svg');
+    background-image: url('../Assets/Images/Construction.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

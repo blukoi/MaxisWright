@@ -981,14 +981,6 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.aspect-auto {
-  aspect-ratio: auto;
-}
-
-.aspect-\[1728\/1045\] {
-  aspect-ratio: 1728/1045;
-}
-
 .h-0 {
   height: 0px;
 }
@@ -1177,10 +1169,6 @@ video {
   flex-wrap: wrap;
 }
 
-.place-items-center {
-  place-items: center;
-}
-
 .content-center {
   align-content: center;
 }
@@ -1282,10 +1270,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-
-.place-self-center {
-  place-self: center;
 }
 
 .self-start {
@@ -1810,7 +1794,7 @@ h3, h4, h5, h6 {
 }
 
 .jumbotron2 {
-  background: url(../Assets/gradient2.png);
+  background: url(./Assets/gradient2.png);
   background-size: cover;
   opacity: 0%;
   animation: pulse 60s linear infinite;
@@ -1831,7 +1815,7 @@ h3, h4, h5, h6 {
 }
 
 .construction {
-  background-image: url('../Assets/Images/Construction.svg');
+  background-image: url('./Assets/Images/Construction.svg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

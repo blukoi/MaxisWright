@@ -22,7 +22,7 @@
 
             <!-- COPYRIGHT & LOGO -->
             <div class="w-full flex flex-row justify-between items-start font-thin pb-8">
-                <p class="text-xs text-white">Copyright © 2016-2023 Max Wright</p>
+                <p class="text-xs text-white">Copyright © 2016-2024 Max Wright</p>
                 <a href="./index.php">
                     <svg 
                     class="bg-transparent hover:bg-white rounded px-4 h-fit fill-black hover:fill-mint" 

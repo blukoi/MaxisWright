@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://use.typekit.net/ngx6nxn.css">
     <link href="./dist/output.css" rel="stylesheet">
     <script src="customscripts.js"></script>
+    <link rel="preload" href="optician-sans-webfont.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="optician-sans-webfont.woff2" as="font" type="font/woff" crossorigin>
 
     <!-- Favicon Links -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">

@@ -13,7 +13,7 @@
                 <div class="col-span-2 ">
                     <a href="./index.php">
                         <svg 
-                        class="bg-white hover:bg-mint rounded px-4 h-fit fill-black hover:fill-white" 
+                        class="bg-white hover:bg-mint rounded px-4 fill-black hover:fill-white" 
                         aria-label="Logo / Home"
                         width="123" 
                         height="64" 

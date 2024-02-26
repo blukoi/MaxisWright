@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Page Title -->
-    <title>Max is Wright - FontFacing</title>
+    <title>Max is Wright - Apple Car</title>
 
 </head>
 <body class="bg-lightishblue">
@@ -19,7 +19,7 @@
 
         <!-- TITLE -->
         <div class="w-full text-center">
-            <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
+            <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">Seamless HMI for Next Gen Vehicles</h1>
         </div>
 
         <!-- BODY CONTENT -->

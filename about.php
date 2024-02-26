@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Page Title -->
-    <title>Max is Wright - <?php echo $pages[$pageSlug]; ?></title>
+    <title>Max is Wright - About</title>
 
 </head>
 <body class="bg-white">
@@ -72,63 +72,38 @@
 
                 <div class="col-span-12 col-start-1 lg:col-span-6 space-y-8 order-2 lg:order-3 mt-0 lg:mt-12">
                     <div class="pt-8">
-                        <h2 class="text-2xl lg:text-4xl text-mint bg-mint text-white rounded-md w-fit px-4 py-2">Skills</h2>
+                        <h2 class="text-2xl lg:text-4xl text-mint bg-mint text-white rounded-md w-fit px-4 py-2">Core Competencies</h2>
                     </div>
 
                     <ul>
-                        <li class="list-inside font-bold">Design</li>
+                        <li class="list-inside font-bold">Process</li>
                         <li>
                             <div class="flex flex-row flex-wrap space-y-1 space-x-1">
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Visual Design</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Test</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User Experience Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User Interface Design</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Design Thinking</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Qualitative Research</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Rapid Prototyping</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Data Visualization</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Iterative Design</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Design Psychology</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Information Architecture</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Mockups</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Microinteractions</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Wireframing</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Prototyping</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Accessibility</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User-Centered Design</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User Interface Design (UI)</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">User Experience Design (UX Design)</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Design Systems</span>
                             </div>
                         </li>
                     </ul>
 
                     <ul>
-                        <li class="list-inside font-bold pt-4">Digital</li>
+                        <li class="list-inside font-bold pt-4">Tools</li>
                         <li>
                             <div class="flex flex-row flex-wrap space-y-1 space-x-1">
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Test</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Adobe Suite (Illustrator, Photoshop, InDesign, AfterEffects, XD, Lightroom)</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Figma</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Cinema 4D</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">SolidWorks</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Microsoft Office Suite</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Google Workspace</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Slack</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Zoom</span>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <ul>
-                        <li class="list-inside font-bold pt-4">Code</li>
-                        <li>
-                            <div class="flex flex-row flex-wrap space-y-1 space-x-1">
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full hidden">Visual Design</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">GitHub</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Visual Studio Code</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Github</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">HTML</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">CSS</span>
                                 <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">JS</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">jQuery</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">PHP</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Python</span>
-                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Basic Computer Science</span>
+                                <span class="bg-mint/20 text-mint px-4 py-1 rounded-full">Basic Programming</span>
                             </div>
                         </li>
                     </ul>
@@ -161,6 +136,21 @@
                         
                         <li class="list-inside">Associate (2015 – 16)</li>
                         <li class="list-disc list-inside px-4">Communicated with customers to streamline discovery of new products</li>
+                    </ul>
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>Freelance | <span class="font-normal">Los Angeles, CA</span></span><span class="text-mint">2010 - 19</span></li>
+                        <li class="list-inside">Graphic Designer</li>
+                        <li class="list-disc list-inside px-4">Short term contracts with repeat clients for brand/digital design, consumer facing web design, & printed collateral</li>
+                        <li class="list-disc list-inside px-4">Extensive communication with stakeholders to find specific pain points (“needs” not “wants”) for each project</li>
+                    </ul>
+                    <ul>
+                        <li class="list-inside font-bold flex justify-between"><span>MadPlusOne (now PlayFull, inc.) | <span class="font-normal">Los Angeles, CA</span></span><span class="text-mint">2012 - 14</span></li>
+                        <li class="list-inside">Web Designer (initial responsibilities)</li>
+                        <li class="list-disc list-inside px-4">Had to think outside the box for a visual design system which highlighted the programming expertise of the team</li>
+                        <li class="list-disc list-inside px-4">Explain the visual design and layout of the proposed web designs to the programming team and ensure the correct application</li>
+                        <li class="list-inside">Graphic Designer (added responsibilities)</li>
+                        <li class="list-disc list-inside px-4">Creation of high fidelity assets and artifacts for use in user interfaces and gameplay</li>
+                        <li class="list-disc list-inside px-4">Sketching, wireframing, and high fidelity designs of menus, loading screens, and navigation animations</li>
                     </ul>
                 </div>
                 

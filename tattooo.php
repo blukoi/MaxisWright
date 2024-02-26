@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Page Title -->
-    <title>Max is Wright - <?php echo $pages[$pageSlug]; ?></title>
+    <title>Max is Wright - Tatt.ooo</title>
 
 </head>
 <body class="bg-neutralbg">
