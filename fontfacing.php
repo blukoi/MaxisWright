@@ -50,6 +50,28 @@
                 <span class="px-3 py-2 rounded-full bg-white text-fontfacingblue text-sm">Solo Project</span>
             </div>
 
+            <!-- HOW MIGHT WE + STEP ONE -->
+            <div class="mb-24 md:mb-36 grid grid-cols-12 gap-4">
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 grid-cols-12">
+                    <h2 class="col-span-12 text-center text-4xl text-fontfacingblue"><span class="px-4 py-2 bg-fontfacingblue/50 text-white rounded-md">How might we</span> integrate artificial intelligence features into the user interface of a platform?</h2>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12 flex justify-center">
+                    <svg 
+                    width="212" 
+                    height="212" 
+                    viewBox="0 0 212 212" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="stroke-[#122f3c]">
+                        <path d="M106 6V206" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M89 189.971L105.971 206.941L122.941 189.971" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12">
+                    <h3 class="col-span-12 text-center text-2xl text-fontfacingblue"><span class="px-2 py-1 bg-fontfacingblue/50 text-white rounded-md font-bold">Start by researching</span> the strengths and weaknesses of AI platforms so you can figure out where in the user flow it belongs.</h3>
+                </div>
+            </div>
+
             <!-- CONTENT SECTION -->
             <div class="mb-8 md:mb-24 grid grid-cols-12 gap-4">
                 <div class="col-span-11 sm:col-span-8 md:col-span-6 lg:col-span-5 drop-shadow-lg z-30">
@@ -114,6 +136,28 @@
                 <div class="col-span-8 col-start-5 md:col-span-6 md:col-start-7 lg:col-span-4 lg:col-start-9 text-center bg-fontfacingblue text-white p-4 rounded-md h-fit">Machine learning is exceedingly good at working with patterns but, due to the previous insights, everything you put into the training will be part of the resulting pattern.</div>
             </div>
 
+            <!-- POSSIBLE SOLUTION -->
+            <div class="mb-24 md:mb-36 grid grid-cols-12 gap-4">
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12 flex justify-center">
+                    <svg 
+                    width="212" 
+                    height="212" 
+                    viewBox="0 0 212 212" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="stroke-[#122f3c]">
+                        <path d="M106 6V206" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M89 189.971L105.971 206.941L122.941 189.971" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 grid-cols-12">
+                    <h2 class="col-span-12 text-center text-4xl text-fontfacingblue">A <span class="px-4 py-2 bg-fontfacingblue/50 text-white rounded-md">possible solution</span> would be to give designers access to different kinds of input while showing what the AI does with it.</h2>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12">
+                    <h3 class="col-span-12 text-center text-2xl text-fontfacingblue opacity-50">By showing a designer what the AI is doing/thinking/processing with their input, instead of just the end result, they can better incorporate the AI features into their workflow.</h3>
+                </div>
+            </div>
+
             <!-- CONTENT SECTION -->
             <div class="flex flex-col mb-24 md:mb-36">
                 <div class="w-full grid grid-cols-12 drop-shadow-lg z-30">
@@ -154,10 +198,30 @@
                 </div>
             </div>
 
-            <!-- INSIGHTS 1 -->
-            <div class="mb-48 mt-24 col-span-12 grid grid-cols-12 gap-4 font-light">
-                <h2 class="col-span-12 text-center text-4xl text-fontfacingblue px-8 sm:px-0">Defining the Workflow Loop</h2>
+            <!-- REFINE THE SOLUTION -->
+            <div class="mb-4 mt-48 grid grid-cols-12 gap-4">
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 grid-cols-12">
+                    <h2 class="col-span-12 text-center text-4xl text-fontfacingblue">We need to <span class="px-4 py-2 bg-fontfacingblue/50 text-white rounded-md">refine the solution</span> by further defining the workflow loop within the program.</h2>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12">
+                    <h3 class="col-span-12 text-center text-2xl text-fontfacingblue opacity-50">Since AI is the driving force of the platform the designer should have access to it whenever they need or want, but there should also be a specific area or stage when the AI is always active and working.</h3>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12 flex justify-center">
+                    <svg 
+                    width="212" 
+                    height="212" 
+                    viewBox="0 0 212 212" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="stroke-[#122f3c]">
+                        <path d="M106 6V206" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M89 189.971L105.971 206.941L122.941 189.971" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
 
+            <!-- INSIGHTS 1 -->
+            <div class="mb-48 col-span-12 grid grid-cols-12 gap-4 font-light">
                 <div class="col-span-12 col-start-1 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3 flex justify-center">
                     <img src="./Assets/Images/FontFacing/WorkflowLoop.svg" alt="An image showing the different possible workflow loops through each AI method, including file uploads, text prompts, and drawing tools. The workflows show that each method leads into the AI training model and then loops back to the start, showing that any input will affect the training model as you work.">
                 </div>
@@ -196,6 +260,28 @@
                     <div class="bg-video overflow-hidden rounded-lg bg-white relative col-span-12 md:col-span-11 lg:col-span-10 xl:col-span-9">
                         <img src="./Assets/Images/FontFacing/Component 5.png" alt="A higher fidelity wireframe showing a toolbar in a desktop application which features permanent AI generation features">
                     </div>
+                </div>
+            </div>
+
+            <!-- POSSIBLE SOLUTION -->
+            <div class="mb-24 md:mb-36 grid grid-cols-12 gap-4">
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12 flex justify-center">
+                    <svg 
+                    width="212" 
+                    height="212" 
+                    viewBox="0 0 212 212" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="stroke-[#122f3c]">
+                        <path d="M106 6V206" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M89 189.971L105.971 206.941L122.941 189.971" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 grid-cols-12">
+                    <h2 class="col-span-12 text-center text-4xl text-fontfacingblue">With the workflow and design resolved, expand the <span class="px-4 py-2 bg-fontfacingblue/50 text-white rounded-md">visual language</span> of the platform.</h2>
+                </div>
+                <div class="col-span-10 col-start-2 md:col-span-8 md:col-start-3 lg:col-span-6 lg:col-start-4 grid-cols-12">
+                    <h3 class="col-span-12 text-center text-2xl text-fontfacingblue opacity-50">Create a consistent user experience by creating a design system with defined color palette, shape language, and font choices.</h3>
                 </div>
             </div>
 
