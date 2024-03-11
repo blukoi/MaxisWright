@@ -33,7 +33,7 @@
 
                 <!-- HAMBURGER -->
                 <input class="menu-btn col-span-1 items-center" type="checkbox" id="menu-btn" />
-                <label class="menu-icon w-9 h-9 col-span-1 self-center justify-self-end bg-white hover:bg-mint flex flex-col justify-center rounded overflow-hidden relative [&>*]:fill-black hover:[&>*]:fill-white" for="menu-btn">
+                <label class="menu-icon w-9 h-9 col-span-1 self-center justify-self-end bg-white hover:bg-mint flex flex-col justify-center rounded overflow-hidden relative [&>*]:fill-black hover:[&>*]:fill-white" for="menu-btn" tabindex="0">
                     <svg 
                     class="absolute top-0 right-0 hamburgericon" 
                     aria-label="Menu"

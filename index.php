@@ -20,8 +20,7 @@
         <div class="w-full h-full jumbotron2 absolute"></div>
         <div class="absolute top-1/4 left-1/2 -translate-x-1/2 container mx-auto w-full h-full">
             <div class="flex flex-col items-start w-full h-full p-4 sm:p-0">
-                <h1 class="mb-4 text-4xl md:text-5xl lg:text-6xl px-4 py-2 bg-white text-mint rounded-lg">Hi! I'm Max,</h1>
-                <h1 class="text-4xl md:text-5xl lg:text-6xl text-white">a<span class="txt-rotate" data-period="2000" data-rotate='[ " visual", "n interaction", " UX/UI", " research", " user-focused", "n empathetic" ]'></span><span class="text-white"> designer, eager to learn new things and create thoughtful solutions.</span></h1>
+                <h1 class="text-4xl text-white"><span class="px-4 py-2 bg-white text-mint rounded-lg mb-4">Hi! I'm Max,</span> a<span class="txt-rotate" data-period="2000" data-rotate='[ " visual", "n interaction", " UX/UI", " research", " user-focused", "n empathetic" ]'></span><span class="text-white"> designer, <br class="hidden md:block">eager to learn new things and create thoughtful solutions.</span></h1>
             </div>
         </div>      
     </div>
