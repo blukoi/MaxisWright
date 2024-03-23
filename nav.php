@@ -4,7 +4,7 @@
     <nav class="container mx-auto top-0 right-0 relative mt-3">
 
         <!-- NAV FRAME -->
-        <div class="bg-white rounded-md absolute top-0 right-0 pl-2 pr-2 py-1.5 w-48 h-fit drop-shadow-2xl">
+        <div class="bg-white/30 rounded-md absolute top-0 right-0 pl-2 pr-2 py-1.5 w-48 h-fit drop-shadow-2xl backdrop-blur-xl">
 
             <!-- BUTTONS -->
             <div class="w-full h-fit grid grid-cols-3 gap-x-2 gap-y-0 items-center">
@@ -13,7 +13,7 @@
                 <div class="col-span-2 ">
                     <a href="./index.php">
                         <svg 
-                        class="bg-white hover:bg-mint rounded px-4 fill-black hover:fill-white" 
+                        class="bg-transparent hover:bg-mint rounded px-4 fill-black hover:fill-white" 
                         aria-label="Logo / Home"
                         width="123" 
                         height="64" 
@@ -33,7 +33,7 @@
 
                 <!-- HAMBURGER -->
                 <input class="menu-btn col-span-1 items-center" type="checkbox" id="menu-btn" />
-                <label class="menu-icon w-9 h-9 col-span-1 self-center justify-self-end bg-white hover:bg-mint flex flex-col justify-center rounded overflow-hidden relative [&>*]:fill-black hover:[&>*]:fill-white" for="menu-btn" tabindex="0">
+                <label class="menu-icon w-9 h-9 col-span-1 self-center justify-self-end bg-transparent hover:bg-mint flex flex-col justify-center rounded overflow-hidden relative [&>*]:fill-black hover:[&>*]:fill-white" for="menu-btn" tabindex="0">
                     <svg 
                     class="absolute top-0 right-0 hamburgericon" 
                     aria-label="Menu"

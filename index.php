@@ -10,17 +10,21 @@
     <title>Max is Wright</title>
 
 </head>
-<body class="bg-white">
+<body>
 
     <?php require_once('nav.php'); ?>
     
     <!-- BODY CONTENT -->
-    <main>
-    <div class="w-full h-screen jumbotron1 relative z-10 bg-white">
-        <div class="w-full h-full jumbotron2 absolute"></div>
+    <main class="relative z-10">
+    <div class="w-screen h-screen jumbotron1 fixed top-0 left-0 z-0">
+        <div class="w-full h-full jumbotron2 absolute z-0"></div>
+    </div>
+
+    <div class="w-full h-screen relative bg-transparent">
+        <!-- <div class="w-full h-full jumbotron2 absolute"></div> -->
         <div class="absolute top-1/4 left-1/2 -translate-x-1/2 container mx-auto w-full h-full">
             <div class="flex flex-col items-start w-full h-full p-4 sm:p-0">
-                <h1 class="text-4xl text-white"><span class="px-4 py-2 bg-white text-mint rounded-lg mb-4">Hi! I'm Max,</span> a<span class="txt-rotate" data-period="2000" data-rotate='[ " visual", "n interaction", " UX/UI", " research", " user-focused", "n empathetic" ]'></span><span class="text-white"> designer, <br class="hidden md:block">eager to learn new things and create thoughtful solutions.</span></h1>
+                <h1 class="text-4xl text-white"><span class="px-4 py-2 bg-white text-mint rounded-lg mb-4">Hi! I'm Max,</span> a<span class="txt-rotate" data-period="2000" data-rotate='[ " visual", "n interaction", " UX/UI", " research", " user-focused", "n empathetic" ]'></span><span class="text-white"> designer <br class="hidden md:block">eager to learn new things and create thoughtful solutions.</span></h1>
             </div>
         </div>      
     </div>
@@ -71,7 +75,7 @@
         </div>
 
         <div class="w-full mx-auto px-4 md:px-0 mb-64 sm:mb-72 lg:mb-80 xl:mb-52 2xl:mb-64 mt-0 xl:mt-48">
-            <a href="./work.php" class="text-center bg-white hover:bg-mint text-mint hover:text-white rounded-md grid grid-cols-12 gap-4 mb-36 p-4 relative">
+            <a href="./work.php" class="text-center bg-transparent hover:bg-mint text-mint hover:text-white rounded-md grid grid-cols-12 gap-4 mb-36 p-4 relative">
                 <div class="align-self-center col-span-6 text-xl sm:text-2xl lg:text-4xl font-bold">
                     <h3 class="px-4 py-2 bg-mint text-white rounded-md">More of My Work</h3>
                 </div>

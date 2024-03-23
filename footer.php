@@ -1,6 +1,6 @@
 
     <!-- FOOTER -->
-    <footer class="w-full bg-mint z-10">
+    <footer class="w-full bg-mint z-20 relative">
 
         <!-- SHADOW -->
         <div class="h-8 w-full bg-gradient-to-b from-black/30 to-black/0 mb-8"></div>
