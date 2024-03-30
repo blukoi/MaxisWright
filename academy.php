@@ -21,7 +21,7 @@
 
         <!-- TITLE -->
         <div class="w-full text-center">
-            <h1 class="mt-48 text-6xl from-[#2e95e0] to-[#b89848] bg-gradient-to-r bg-clip-text text-transparent">Data Visualization Through Gamification</h1>
+            <h1 class="mt-48 text-6xl from-[#2e95e0] via-black to-[#b89848] bg-gradient-to-r bg-clip-text text-transparent">Data Visualization Through Gamification</h1>
         </div>
 
 
