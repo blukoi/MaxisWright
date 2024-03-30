@@ -19,7 +19,7 @@
 
         <!-- TITLE + HERO -->
         <div class="w-full text-left grid grid-cols-12 h-screen relative">
-            <h1 class="absolute left-1/2 -translate-x-1/2 top-1/4 -translate-y-1/2 text-center w-full text-3xl sm:text-4xl md:text-6xl text-tattooblue">Crafting a Seamless Tattoo Experience for Clients and Artists</h1>
+            <h1 class="absolute left-1/2 -translate-x-1/2 top-1/4 -translate-y-1/2 text-center w-full text-3xl sm:text-4xl md:text-6xl from-[#4285f4] to-[#ff6f6f] bg-gradient-to-r bg-clip-text text-transparent">Crafting a Seamless Tattoo Experience for Clients and Artists</h1>
             <img src="./Assets/Images/Tattooo/Tattooo_Home.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-64 mx-0 md:mx-4 self-center absolute right-1/2 top-1/4 md:left-0 translate-x-1/2 md:translate-x-0 lg:translate-x-1/2 2xl:translate-x-full translate-y-16 md:translate-y-24 xl:translate-y-16">
             <img src="./Assets/Images/Tattooo/Tattooo_Ideas.png" alt="Mockup showing an iPhone with the prototype for Tatt.ooo's home screen" class="w-64 mx-0 md:mx-4 self-center absolute top-1/4 right-1/2 hidden md:block md:right-0 translate-x-1/2 md:translate-x-0 lg:-translate-x-1/2 2xl:-translate-x-full translate-y-16 md:translate-y-24 xl:translate-y-16">
         </div>

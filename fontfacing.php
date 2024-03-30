@@ -19,7 +19,7 @@
 
         <!-- TITLE -->
         <div class="w-full text-center">
-            <h1 class="mt-48 mb-36 text-6xl text-fontfacingblue">AI-Driven Typeface Design</h1>
+            <h1 class="mt-48 mb-36 text-6xl from-mint via-[#122f3c] to-[#2d72f7] bg-gradient-to-r bg-clip-text text-transparent">AI-Driven Typeface Design</h1>
         </div>
 
         <!-- BODY CONTENT -->
