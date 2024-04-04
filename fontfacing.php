@@ -28,7 +28,10 @@
             <!-- HERO IMAGE -->
             <div class="flex justify-end">
                 <div class="w-11/12 md:w-9/12 rounded-lg overflow-hidden drop-shadow-lg">
-                    <img src="Assets/Images/FontFacing/Hero_Image.png" alt="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available.">
+                    <!-- <img src="Assets/Images/FontFacing/Hero_Image.png" alt="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available."> -->
+                    <video class="bg-video__content" title="Mockup of a desktop application for the graphic design of typefaces, featuring an artboard where a letterform is being worked on and the toolbars and menu options available." autoplay muted loop>
+                        <source src="Assets/Images/FontFacing/Hero_Animated_Compressed.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
